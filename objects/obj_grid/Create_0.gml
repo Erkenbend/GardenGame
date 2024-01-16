@@ -19,3 +19,4 @@ for(var _i = 0; _i < _grid_height; _i++) {
         global.grid[_i, _j] = 0
     }
 }
+show_debug_message(global.grid)
