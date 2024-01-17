@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_creeper",
-  "eventList": [],
+  "name": "obj_weed",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_creeper",
-    "path": "sprites/spr_creeper/spr_creeper.yy",
+    "name": "spr_weed_small",
+    "path": "sprites/spr_weed_small/spr_weed_small.yy",
   },
   "spriteMaskId": null,
   "visible": true,

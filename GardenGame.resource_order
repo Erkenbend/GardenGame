@@ -17,8 +17,16 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_weed","order":5,"path":"objects/obj_weed/obj_weed.yy",},
     {"name":"spr_creeper","order":1,"path":"sprites/spr_creeper/spr_creeper.yy",},
+    {"name":"spr_weed_medium","order":4,"path":"sprites/spr_weed_medium/spr_weed_medium.yy",},
+    {"name":"spr_weed_small","order":3,"path":"sprites/spr_weed_small/spr_weed_small.yy",},
+    {"name":"rm_test","order":2,"path":"rooms/rm_test/rm_test.yy",},
+    {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_testwall","order":1,"path":"objects/obj_testwall/obj_testwall.yy",},
+    {"name":"obj_grid_element","order":4,"path":"objects/obj_grid_element/obj_grid_element.yy",},
+    {"name":"spr_weed_big","order":5,"path":"sprites/spr_weed_big/spr_weed_big.yy",},
+    {"name":"spr_player","order":2,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_creeper","order":2,"path":"objects/obj_creeper/obj_creeper.yy",},
   ],
 }

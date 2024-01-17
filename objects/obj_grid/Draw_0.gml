@@ -1,4 +1,4 @@
-/// @description Draw grid
+/// @description Debug: Draw grid
 
 draw_set_alpha(.5)
 draw_set_color(c_green)
@@ -21,6 +21,7 @@ for (var _j = 0; _j <= _grid_width; _j++) {
 	)
 }
 
+/*
 // Display values
 for (var _i = 0; _i < _grid_height; _i++) {
     for (var _j = 0; _j < _grid_width; _j++) {
@@ -35,9 +36,9 @@ for (var _i = 0; _i < _grid_height; _i++) {
 				false
 			);
         }
-
     }
 }
+*/
 
 // Reset opacity & color
 draw_set_color(c_white)

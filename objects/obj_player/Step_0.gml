@@ -1,0 +1,25 @@
+// get inputs
+var _right_key = keyboard_check(vk_right) || keyboard_check(ord("D"))
+var _left_key = keyboard_check(vk_left) || keyboard_check(ord("A"))
+var _up_key = keyboard_check(vk_up) || keyboard_check(ord("W"))
+var _down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
+
+// TODO: fix key priority to make movement feel better
+
+// player movement
+if (_up_key) {
+	move_dir = 90
+	y -= move_speed
+}
+else if (_down_key) {
+	move_dir = 270
+	y += move_speed
+}
+else if (_right_key) {
+	move_dir = 0
+	x += move_speed
+}
+else if (_left_key) {
+	move_dir = 180
+	x -= move_speed
+}
