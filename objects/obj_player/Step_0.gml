@@ -7,19 +7,19 @@ var _down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
 // TODO: fix key priority to make movement feel better
 
 // player movement
-if (_up_key) {
+if (_up_key && place_free(x, y - move_speed)) {
 	move_dir = 90
 	y -= move_speed
 }
-else if (_down_key) {
+else if (_down_key && place_free(x, y + move_speed)) {
 	move_dir = 270
 	y += move_speed
 }
-else if (_right_key) {
+else if (_right_key && place_free(x + move_speed, y)) {
 	move_dir = 0
 	x += move_speed
 }
-else if (_left_key) {
+else if (_left_key && place_free(x - move_speed, y)) {
 	move_dir = 180
 	x -= move_speed
 }

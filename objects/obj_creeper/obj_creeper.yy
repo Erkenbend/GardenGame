@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_creeper",
-    "path": "sprites/spr_creeper/spr_creeper.yy",
+    "name": "spr_gras_light",
+    "path": "sprites/spr_gras_light/spr_gras_light.yy",
   },
   "spriteMaskId": null,
   "visible": true,
