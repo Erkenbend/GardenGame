@@ -2,6 +2,24 @@
 
 depth = -1000;
 
+_cannot_spawn_weed_on = [
+	obj_compost,
+	obj_rock,
+	obj_testwall,
+	obj_weed
+]
+
+_can_spawn_weed = function (_x_pos, _y_pos) {
+	array_size = array_length(_cannot_spawn_weed_on)
+	// check against "middle center" of the object to avoid RANDBEDINGUNG
+	for(i = 0; i < array_size; i++) {
+		if (instance_position(_x_pos + 16, _y_pos + 16, _cannot_spawn_weed_on[i])) {
+			return false
+		}
+	}
+	return true
+}
+
 _grid_width = 36
 _grid_height = 20
 _box_size = 32
@@ -22,7 +40,7 @@ for(var _i = 0; _i < _grid_height; _i++) {
 		y_pos = _grid_start_y + _box_size * _i
 		
 		// check if there is no other object drawn on the grid field
-		if (!instance_position(x_pos, y_pos, obj_grid_element)){
+		if (!instance_position(x_pos, y_pos, obj_grid_element)) {
 			// I'm sorry for this..
 			// Draw alternating light and dark gras and offset on uneven rows
 			if ( (_i % 2 == 0 && _j % 2 == 1) || (_i % 2 == 1 && _j % 2 == 0) ) {
