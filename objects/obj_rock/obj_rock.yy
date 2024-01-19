@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_creeper",
+  "name": "obj_rock",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -27,10 +27,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_gras_light",
-    "path": "sprites/spr_gras_light/spr_gras_light.yy",
+    "name": "spr_rock",
+    "path": "sprites/spr_rock/spr_rock.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Environment/Interactables.yy",
   },
   "parentObjectId": null,
   "persistent": false,

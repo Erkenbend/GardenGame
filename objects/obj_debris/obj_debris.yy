@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_creeper",
+  "name": "obj_debris",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Static",
-    "path": "folders/Objects/Environment/Static.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Environment/Interactables.yy",
   },
   "parentObjectId": {
     "name": "obj_grid_element",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gras_light",
-    "path": "sprites/spr_gras_light/spr_gras_light.yy",
+    "name": "spr_debris",
+    "path": "sprites/spr_debris/spr_debris.yy",
   },
   "spriteMaskId": null,
   "visible": true,

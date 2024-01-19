@@ -26,3 +26,11 @@ else if (_left_key && place_free(x - move_speed, y)) {
 if place_meeting(x,y,obj_weed) {
 	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
 }
+
+
+if place_meeting(x, y, obj_debris) {
+	move_speed = move_speed_initial * debris_move_speed_modifier
+} else {
+	move_speed = move_speed_initial / debris_move_speed_modifier
+}
+

@@ -3,6 +3,7 @@
 draw_set_alpha(.5)
 draw_set_color(c_green)
 
+/*
 for (var _i = 0; _i <= _grid_height; _i++){
     draw_line(
 		_grid_start_x,
@@ -20,6 +21,7 @@ for (var _j = 0; _j <= _grid_width; _j++) {
 		_grid_start_y + _grid_height*_box_size
 	)
 }
+*/
 
 /*
 // Display values

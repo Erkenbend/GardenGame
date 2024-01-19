@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Environment/Interactables.yy",
   },
   "parentObjectId": {
     "name": "obj_grid_element",
