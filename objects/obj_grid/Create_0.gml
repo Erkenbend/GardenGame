@@ -38,4 +38,5 @@ for(var _i = 0; _i < _grid_height; _i++) {
 
 show_debug_message(global.grid)
 
-alarm[0] = 120
+// spawn first weed
+alarm[0] = global.weed_growth.delay_initial_spawn
