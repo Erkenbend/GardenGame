@@ -26,10 +26,10 @@ for(var _i = 0; _i < _grid_height; _i++) {
 			// I'm sorry for this..
 			// Draw alternating light and dark gras and offset on uneven rows
 			if ( (_i % 2 == 0 && _j % 2 == 1) || (_i % 2 == 1 && _j % 2 == 0) ) {
-				a = instance_create_layer(x_pos, y_pos, "Instances", obj_gras_light)
+				a = instance_create_layer(x_pos, y_pos, "Instances", obj_grass_light)
 				a.depth = 150
 			} else {
-				b = instance_create_layer(x_pos, y_pos, "Instances", obj_gras_dark)
+				b = instance_create_layer(x_pos, y_pos, "Instances", obj_grass_dark)
 				b.depth = 150
 			}
 		}
