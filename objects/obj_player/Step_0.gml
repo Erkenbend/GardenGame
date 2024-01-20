@@ -30,7 +30,6 @@ move_speed = global.player_movement.move_speed_initial
 if (place_meeting(x, y, obj_debris)) {
 	move_speed *= global.player_movement.debris_move_speed_modifier
 }
-
 if (move_started) {
 	// when between tiles: finish movement in the given direction before accepting new inputs
 	_x_move = round(move_speed * cos(move_dir))
@@ -125,7 +124,8 @@ if (x > _x_before) {
 } else if (y < _y_before) {
 	sprite_index = spr_player_walking_up
 } else {
-	sprite_index = spr_player_standing
+	// TODO Refactor locig to detect cutting animation
+	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : spr_player_standing
 }
 
 // cut weed
