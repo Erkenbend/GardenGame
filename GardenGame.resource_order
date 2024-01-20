@@ -25,6 +25,7 @@
     {"name":"spr_grass_light","order":1,"path":"sprites/spr_grass_light/spr_grass_light.yy",},
     {"name":"spr_compost","order":8,"path":"sprites/spr_compost/spr_compost.yy",},
     {"name":"spr_player_walking_up","order":12,"path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},
+    {"name":"obj_score_display","order":4,"path":"objects/obj_score_display/obj_score_display.yy",},
     {"name":"spr_weed_medium","order":4,"path":"sprites/spr_weed_medium/spr_weed_medium.yy",},
     {"name":"spr_weed_small","order":3,"path":"sprites/spr_weed_small/spr_weed_small.yy",},
     {"name":"spr_grass_dark","order":7,"path":"sprites/spr_grass_dark/spr_grass_dark.yy",},

@@ -44,6 +44,7 @@
     {"id":{"name":"obj_compost","path":"objects/obj_compost/obj_compost.yy",},},
     {"id":{"name":"spr_compost","path":"sprites/spr_compost/spr_compost.yy",},},
     {"id":{"name":"spr_player_walking_up","path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},},
+    {"id":{"name":"obj_score_display","path":"objects/obj_score_display/obj_score_display.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
     {"id":{"name":"spr_weed_medium","path":"sprites/spr_weed_medium/spr_weed_medium.yy",},},
     {"id":{"name":"spr_weed_small","path":"sprites/spr_weed_small/spr_weed_small.yy",},},

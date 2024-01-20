@@ -1,6 +1,7 @@
 /// @description Init global variables
 
 global.score = 0
+global.points_per_cut = 10
 
 global.grid_properties = {
 	grid_width: 36,
@@ -21,7 +22,7 @@ global.weed_growth = {
 }
 
 global.player_movement = {
-	move_speed_initial: 7,
+	move_speed_initial: 3,
 	debris_move_speed_modifier: 0.2
 }
 
