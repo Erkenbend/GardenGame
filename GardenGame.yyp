@@ -59,7 +59,7 @@
     {"id":{"name":"obj_grass_dark","path":"objects/obj_grass_dark/obj_grass_dark.yy",},},
     {"id":{"name":"spr_weed_big","path":"sprites/spr_weed_big/spr_weed_big.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_player_walking_down","path":"sprites/spr_player_walking_down/spr_player_walking_down.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
     {"id":{"name":"obj_grass_light","path":"objects/obj_grass_light/obj_grass_light.yy",},},
     {"id":{"name":"obj_creeper","path":"objects/obj_creeper/obj_creeper.yy",},},

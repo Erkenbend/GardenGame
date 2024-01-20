@@ -38,7 +38,7 @@
     {"name":"obj_grass_dark","order":1,"path":"objects/obj_grass_dark/obj_grass_dark.yy",},
     {"name":"spr_weed_big","order":5,"path":"sprites/spr_weed_big/spr_weed_big.yy",},
     {"name":"obj_debris","order":2,"path":"objects/obj_debris/obj_debris.yy",},
-    {"name":"spr_player","order":2,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_player_walking_down","order":2,"path":"sprites/spr_player_walking_down/spr_player_walking_down.yy",},
     {"name":"obj_grass_light","order":2,"path":"objects/obj_grass_light/obj_grass_light.yy",},
     {"name":"rm_loading","order":3,"path":"rooms/rm_loading/rm_loading.yy",},
   ],
