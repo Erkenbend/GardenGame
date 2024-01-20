@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_player_walking_down",
-    "path": "sprites/spr_player_walking_down/spr_player_walking_down.yy",
+    "name": "spr_player_standing",
+    "path": "sprites/spr_player_standing/spr_player_standing.yy",
   },
   "spriteMaskId": null,
   "visible": true,

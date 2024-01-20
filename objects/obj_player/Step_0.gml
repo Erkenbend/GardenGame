@@ -6,6 +6,9 @@ var _down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
 var _x_movement_sign = 0
 var _y_movement_sign = 0
 
+var _x_before = x
+var _y_before = y
+
 var _x_move = 0
 var _y_move = 0
 
@@ -112,6 +115,20 @@ if (((x - _x_move) % _box_size != 0 || (y - _y_move) % _box_size != 0 ) && (abs(
 	move_started = false
 }
 
+// change sprite
+if (x > _x_before) {
+	sprite_index = spr_player_walking_right
+} else if (x < _x_before) {
+	sprite_index = spr_player_walking_left
+} else if (y > _y_before) {
+	sprite_index = spr_player_walking_down
+} else if (y < _y_before) {
+	sprite_index = spr_player_walking_up
+} else {
+	sprite_index = spr_player_standing
+}
+
+// cut weed
 if place_meeting(x, y, obj_weed) {
 	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
 }
