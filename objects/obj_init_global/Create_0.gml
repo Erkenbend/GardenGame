@@ -16,13 +16,13 @@ global.ui = {
 }
 
 global.grid_properties = {
-	grid_width: 36,
-	grid_height: 20,
+	grid_width: 48,
+	grid_height: 26,
 	box_size: 32,
 
 	// offset has to be a multiple of box size!
-	grid_start_x: 128,
-	grid_start_y: 256
+	grid_start_x: 224,
+	grid_start_y: 96
 }
 
 global.weed_growth = {

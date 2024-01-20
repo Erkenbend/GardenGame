@@ -42,6 +42,7 @@
     {"name":"obj_ui_bag","order":1,"path":"objects/obj_ui_bag/obj_ui_bag.yy",},
     {"name":"obj_testwall","order":4,"path":"objects/obj_testwall/obj_testwall.yy",},
     {"name":"obj_grid_element","order":1,"path":"objects/obj_grid_element/obj_grid_element.yy",},
+    {"name":"spr_background","order":16,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_player_walking_left","order":13,"path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},
     {"name":"obj_grass_dark","order":1,"path":"objects/obj_grass_dark/obj_grass_dark.yy",},
     {"name":"spr_player_standing","order":11,"path":"sprites/spr_player_standing/spr_player_standing.yy",},
