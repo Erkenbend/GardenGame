@@ -55,3 +55,4 @@ show_debug_message(global.grid)
 
 // spawn first weed
 alarm[0] = global.weed_growth.delay_initial_spawn
+alarm[1] = 120

@@ -1,5 +1,11 @@
 /// @description Grow to next stage if possible
 
+var _spawn_new_instance = function (_x, _y) {
+	if (place_free(_x,_y) && !place_meeting(_x, _y, obj_weed)) {
+		instance_create_layer(_x,_y, "Instances", obj_weed)
+	}
+}
+
 switch sprite_index {
 	case spr_weed_small:
 		sprite_index = spr_weed_medium
@@ -10,22 +16,11 @@ switch sprite_index {
 		alarm[0] = random_range(global.weed_growth.delay_big_to_spread - global.weed_growth.delay_random_variability / 2, global.weed_growth.delay_big_to_spread + global.weed_growth.delay_random_variability / 2)
 		break
 	case spr_weed_big:
-		sprite_index = spr_weed_small
-		alarm[0] = random_range(global.weed_growth.delay_small_to_medium - global.weed_growth.delay_random_variability / 2, global.weed_growth.delay_small_to_medium + global.weed_growth.delay_random_variability / 2)
-		
-		// TODO: refactor into function
-		if (place_free(x, y - global.grid_properties.box_size) && !place_meeting(x, y - global.grid_properties.box_size, obj_weed)) {
-			instance_create_layer(x, y - global.grid_properties.box_size, "Instances", obj_weed)
-		}
-		if (place_free(x, y + global.grid_properties.box_size) && !place_meeting(x, y + global.grid_properties.box_size, obj_weed)) {
-			instance_create_layer(x, y + global.grid_properties.box_size, "Instances", obj_weed)
-		}
-		if (place_free(x + global.grid_properties.box_size, y) && !place_meeting(x + global.grid_properties.box_size, y, obj_weed)) {
-			instance_create_layer(x + global.grid_properties.box_size, y, "Instances", obj_weed)
-		}
-		if (place_free(x - global.grid_properties.box_size, y) && !place_meeting(x - global.grid_properties.box_size, y, obj_weed)) {
-			instance_create_layer(x - global.grid_properties.box_size, y, "Instances", obj_weed)
-		}
+	// Adding directions as comment. Im to tired to think :) 
+		_spawn_new_instance(x, y - global.grid_properties.box_size)
+		_spawn_new_instance(x, y + global.grid_properties.box_size)
+		_spawn_new_instance(x + global.grid_properties.box_size, y)
+		_spawn_new_instance(x - global.grid_properties.box_size, y)
 
 		instance_destroy()
 		break

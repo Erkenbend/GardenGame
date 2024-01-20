@@ -10,7 +10,9 @@ global.bag_content = 0
 
 
 //// IMMUTABLE CONFIG
-
+// enable true random 
+//https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/randomise.htm
+randomize()
 global.points_per_cut = 10
 global.bag_capacity = 2
 
