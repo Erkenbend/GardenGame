@@ -4,6 +4,7 @@ depth = -1000;
 
 _cannot_spawn_weed_on = [
 	obj_compost,
+	obj_near_compost,
 	obj_rock,
 	obj_testwall,
 	obj_weed

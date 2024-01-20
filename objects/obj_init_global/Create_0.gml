@@ -1,7 +1,19 @@
 /// @description Init global variables
 
+//// MUTABLE
+
 global.score = 0
+global.bag_content = 0
+
+
+//// IMMUTABLE CONFIG
+
 global.points_per_cut = 10
+global.bag_capacity = 2
+
+global.ui = {
+	info_text_duration: 60
+}
 
 global.grid_properties = {
 	grid_width: 36,

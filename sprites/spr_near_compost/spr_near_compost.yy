@@ -1,26 +1,26 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_rock",
+  "name": "spr_near_compost",
   "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
-  "bboxMode": 1,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44235036-bb9f-4695-a8f1-e105e0302b8b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c84235e1-6801-4ccf-87f2-2421de1539a1",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0c76e431-d012-4eac-8f59-9b3ee571a94b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7290fae1-61b5-42ed-bd08-bfb478f4755f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_rock",
+    "name": "spr_near_compost",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44235036-bb9f-4695-a8f1-e105e0302b8b","path":"sprites/spr_rock/spr_rock.yy",},},},"Disabled":false,"id":"60270b54-ae9b-41f2-a0e0-30b9b89e9efb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c84235e1-6801-4ccf-87f2-2421de1539a1","path":"sprites/spr_near_compost/spr_near_compost.yy",},},},"Disabled":false,"id":"f2466342-cacc-4cc8-b4b8-0f217291e42c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

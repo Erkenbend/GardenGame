@@ -132,3 +132,12 @@ if (x > _x_before) {
 if place_meeting(x, y, obj_weed) {
 	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
 }
+
+// empty bag
+if place_meeting(x, y, obj_near_compost) {
+	global.score += global.bag_content * global.points_per_cut
+	if (global.bag_content > 0 && !instance_exists(obj_info_points_earned)) {
+		instance_create_layer(x - 20, y - 100, "Instances", obj_info_points_earned)
+	}
+	global.bag_content = 0
+}

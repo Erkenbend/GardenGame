@@ -4,7 +4,11 @@ if place_meeting(x ,y, obj_player) {
 	switch sprite_index {
 		case spr_weed_small:
 			instance_destroy()
-			global.score += global.points_per_cut
+			if (global.bag_content < global.bag_capacity) {
+				global.bag_content++
+			} else {
+				instance_create_layer(x - 20, y - 100, "Instances", obj_info_bag_full)
+			}
 			break
 		case spr_weed_medium:
 			sprite_index = spr_weed_small
