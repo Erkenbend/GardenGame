@@ -4,6 +4,7 @@ if place_meeting(x ,y, obj_player) {
 	switch sprite_index {
 		case spr_weed_small:
 			instance_destroy()
+			global.score += global.points_per_cut
 			break
 		case spr_weed_medium:
 			sprite_index = spr_weed_small
