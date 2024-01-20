@@ -6,6 +6,7 @@
 //// MUTABLE
 
 global.score = 0
+global.high_score = 0
 global.bag_content = 0
 
 
