@@ -2,6 +2,16 @@
 
 global.score = 0
 
+global.grid_properties = {
+	grid_width: 36,
+	grid_height: 20,
+	box_size: 32,
+
+	// offset has to be a multiple of box size!
+	grid_start_x: 128,
+	grid_start_y: 256
+}
+
 global.weed_growth = {
 	delay_initial_spawn: 60,
 	delay_spawn_small: 120,
