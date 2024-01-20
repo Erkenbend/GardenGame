@@ -12,7 +12,7 @@ _cannot_spawn_weed_on = [
 _can_spawn_weed = function (_x_pos, _y_pos) {
 	var _array_size = array_length(_cannot_spawn_weed_on)
 	// check against "middle center" of the object to avoid RANDBEDINGUNG
-	for(_i = 0; _i < _array_size; _i++) {
+	for(var _i = 0; _i < _array_size; _i++) {
 		if (instance_position(_x_pos + 16, _y_pos + 16, _cannot_spawn_weed_on[_i])) {
 			return false
 		}

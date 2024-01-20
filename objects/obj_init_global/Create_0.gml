@@ -10,4 +10,9 @@ global.weed_growth = {
 	max_instance_count: 200
 }
 
+global.player_movement = {
+	move_speed_initial: 2,
+	debris_move_speed_modifier: 0.6
+}
+
 alarm[0] = 1  // add fake loading time if needed

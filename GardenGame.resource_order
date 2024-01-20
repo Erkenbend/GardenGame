@@ -22,11 +22,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_weed","order":1,"path":"objects/obj_weed/obj_weed.yy",},
-    {"name":"spr_gras_light","order":1,"path":"sprites/spr_gras_light/spr_gras_light.yy",},
+    {"name":"spr_grass_light","order":1,"path":"sprites/spr_grass_light/spr_grass_light.yy",},
     {"name":"spr_compost","order":8,"path":"sprites/spr_compost/spr_compost.yy",},
     {"name":"spr_weed_medium","order":4,"path":"sprites/spr_weed_medium/spr_weed_medium.yy",},
     {"name":"spr_weed_small","order":3,"path":"sprites/spr_weed_small/spr_weed_small.yy",},
-    {"name":"spr_gras_dark","order":7,"path":"sprites/spr_gras_dark/spr_gras_dark.yy",},
+    {"name":"spr_grass_dark","order":7,"path":"sprites/spr_grass_dark/spr_grass_dark.yy",},
     {"name":"obj_rock","order":3,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"spr_debris","order":10,"path":"sprites/spr_debris/spr_debris.yy",},
     {"name":"rm_test","order":2,"path":"rooms/rm_test/rm_test.yy",},

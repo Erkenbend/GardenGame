@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gras_dark",
-    "path": "sprites/spr_gras_dark/spr_gras_dark.yy",
+    "name": "spr_grass_dark",
+    "path": "sprites/spr_grass_dark/spr_grass_dark.yy",
   },
   "spriteMaskId": null,
   "visible": true,

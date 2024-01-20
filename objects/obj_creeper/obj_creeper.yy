@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_gras_light",
-    "path": "sprites/spr_gras_light/spr_gras_light.yy",
+    "name": "spr_grass_light",
+    "path": "sprites/spr_grass_light/spr_grass_light.yy",
   },
   "spriteMaskId": null,
   "visible": true,

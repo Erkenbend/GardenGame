@@ -16,6 +16,6 @@ if place_meeting(x,y,obj_player) {
 			break
 	}
 } else {
-	_cutting_state._is_getting_cutted = false	
+	_cutting_state._is_getting_cut = false	
 	_cutting_state._speed = 0
 }

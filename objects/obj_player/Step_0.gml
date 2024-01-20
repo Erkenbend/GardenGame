@@ -4,6 +4,14 @@ var _left_key = keyboard_check(vk_left) || keyboard_check(ord("A"))
 var _up_key = keyboard_check(vk_up) || keyboard_check(ord("W"))
 var _down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
 
+
+if place_meeting(x, y, obj_debris) {
+	move_speed = global.player_movement.move_speed_initial * global.player_movement.debris_move_speed_modifier
+} else {
+	move_speed = global.player_movement.move_speed_initial
+}
+
+
 // TODO: fix key priority to make movement feel better
 // player movement
 if (_up_key && place_free(x, y - move_speed)) {
@@ -23,14 +31,6 @@ else if (_left_key && place_free(x - move_speed, y)) {
 	x -= move_speed
 }
 
-if place_meeting(x,y,obj_weed) {
+if place_meeting(x, y, obj_weed) {
 	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
 }
-
-
-if place_meeting(x, y, obj_debris) {
-	move_speed = move_speed_initial * debris_move_speed_modifier
-} else {
-	move_speed = move_speed_initial / debris_move_speed_modifier
-}
-
