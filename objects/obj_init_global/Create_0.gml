@@ -21,8 +21,8 @@ global.weed_growth = {
 }
 
 global.player_movement = {
-	move_speed_initial: 2,
-	debris_move_speed_modifier: 0.6
+	move_speed_initial: 7,
+	debris_move_speed_modifier: 0.2
 }
 
 alarm[0] = 1  // add fake loading time if needed
