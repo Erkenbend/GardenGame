@@ -6,7 +6,7 @@ _cutting_state = {
   _speed : 0
 }
 
-alarm[0] = global.weed_growth.delay_small_to_medium
+alarm[0] = random_range(global.weed_growth.delay_small_to_medium - global.weed_growth.delay_random_variability / 2, global.weed_growth.delay_small_to_medium + global.weed_growth.delay_random_variability / 2)
 
 cutting_down = function(_cutting_speed) {
 	_cutting_state._cutting_speed = _cutting_speed

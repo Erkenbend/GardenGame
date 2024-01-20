@@ -1,5 +1,8 @@
 /// @description Init global variables
 
+// all distances in pixels (full hd window)
+// all durations in frames (60 fps)
+
 //// MUTABLE
 
 global.score = 0
@@ -27,9 +30,11 @@ global.grid_properties = {
 
 global.weed_growth = {
 	delay_initial_spawn: 60,
-	delay_spawn_small: 120,
+	delay_spawn_small: 480,
 	delay_small_to_medium: 240,
 	delay_medium_to_big: 480,
+	delay_big_to_spread: 240,
+	delay_random_variability: 60,
 	max_instance_count: 200
 }
 

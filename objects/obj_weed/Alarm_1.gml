@@ -12,12 +12,12 @@ if place_meeting(x ,y, obj_player) {
 			break
 		case spr_weed_medium:
 			sprite_index = spr_weed_small
-			alarm[0] = global.weed_growth.delay_small_to_medium
+			alarm[0] = random_range(global.weed_growth.delay_small_to_medium - global.weed_growth.delay_random_variability / 2, global.weed_growth.delay_small_to_medium + global.weed_growth.delay_random_variability / 2)
 			alarm[1] = _cutting_state._cutting_speed
 			break
 		case spr_weed_big:
 			sprite_index = spr_weed_medium
-			alarm[0] = global.weed_growth.delay_medium_to_big
+			alarm[0] = random_range(global.weed_growth.delay_medium_to_big - global.weed_growth.delay_random_variability / 2, global.weed_growth.delay_medium_to_big + global.weed_growth.delay_random_variability / 2)
 			alarm[1] = _cutting_state._cutting_speed
 			break
 	}

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_weed_big",
-  "bbox_bottom": 75,
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 79,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 1,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 76,
+  "height": 32,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfcb5b18-8dc7-4fa0-9ec1-bcd8bc279eff","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 80,
+  "width": 32,
 }
