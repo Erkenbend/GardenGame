@@ -1,6 +1,8 @@
 /// @description Trigger alarm to make grow
 event_inherited()
 
+depth = -100
+
 _cutting_state = {
   _is_getting_cut : false,	
   _speed : 0
