@@ -6,9 +6,6 @@ move_started = false
 // 1 for horiz, 2 for vert
 last_pressed_dir = 1
 
-// variable for cutting
-cut_down_speed = 100
-
 self.depth = -200
 
 _register_last_direction = function () {

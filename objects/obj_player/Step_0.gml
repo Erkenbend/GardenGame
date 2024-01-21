@@ -30,7 +30,6 @@ move_speed = global.player_movement.move_speed_initial
 if (place_meeting(x, y, obj_debris)) {
 	move_speed *= global.player_movement.debris_move_speed_modifier
 }
-
 if (move_started) {
 	// when between tiles: finish movement in the given direction before accepting new inputs
 	_x_move = round(move_speed * cos(move_dir))
@@ -125,10 +124,20 @@ if (x > _x_before) {
 } else if (y < _y_before) {
 	sprite_index = spr_player_walking_up
 } else {
-	sprite_index = spr_player_standing
+	// TODO Refactor locig to detect cutting animation
+	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : spr_player_standing
 }
 
 // cut weed
 if place_meeting(x, y, obj_weed) {
-	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
+	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+}
+
+// empty bag
+if place_meeting(x, y, obj_near_compost) {
+	global.score += global.bag_content * global.points_per_cut
+	if (global.bag_content > 0 && !instance_exists(obj_info_points_earned)) {
+		instance_create_layer(x - 20, y - 100, "Instances", obj_info_points_earned)
+	}
+	global.bag_content = 0
 }
