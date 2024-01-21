@@ -15,10 +15,21 @@ switch sprite_index {
 		sprite_index = spr_weed_small
 		y += global.grid_properties.box_size
 		
-		_spawn_new_instance(x, y - global.grid_properties.box_size)
-		_spawn_new_instance(x, y + global.grid_properties.box_size)
-		_spawn_new_instance(x + global.grid_properties.box_size, y)
-		_spawn_new_instance(x - global.grid_properties.box_size, y)
+		// short name
+		var _spawn_prob =  global.weed_growth.spread_spawn_probability
+		
+		if (random(1) < _spawn_prob) {
+			_spawn_new_instance(x, y - global.grid_properties.box_size)
+		}
+		if (random(1) < _spawn_prob) {
+			_spawn_new_instance(x, y + global.grid_properties.box_size)
+		}
+		if (random(1) < _spawn_prob) {
+			_spawn_new_instance(x + global.grid_properties.box_size, y)
+		}
+		if (random(1) < _spawn_prob) {
+			_spawn_new_instance(x - global.grid_properties.box_size, y)
+		}
 
 		instance_destroy()
 		break

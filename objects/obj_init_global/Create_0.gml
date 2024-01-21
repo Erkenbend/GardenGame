@@ -41,7 +41,8 @@ global.weed_growth = {
 	delay_medium_to_big: 480,
 	delay_big_to_spread: 240,
 	delay_random_variability: 60,
-	max_instance_count: 200
+	max_instance_count: 30,
+	spread_spawn_probability: 0.75,
 }
 
 global.player_movement = {
