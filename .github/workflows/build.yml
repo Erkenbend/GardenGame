@@ -80,4 +80,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build project
         run: |
-          Igor.exe /lf=$licenseFile /rp=$rp /project=$project /of=$of /tf=$tf /cache=$cache -- $platform $action
+          igor /lf=$licenseFile /rp=$rp /project=$project /of=$of /tf=$tf /cache=$cache -- $platform $action
