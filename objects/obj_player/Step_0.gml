@@ -114,18 +114,44 @@ if (((x - _x_move) % _box_size != 0 || (y - _y_move) % _box_size != 0 ) && (abs(
 	move_started = false
 }
 
-// change sprite
+// change sprite, use mirror images for walking left vs right, need to compensate for top-left sprite anchor point
+// TODO: make this pretty
 if (x > _x_before) {
 	sprite_index = spr_player_walking_right
+	if (mirrored) {
+		image_xscale = 1
+		x -= 3 * global.grid_properties.box_size
+		mirrored = false
+	}
 } else if (x < _x_before) {
-	sprite_index = spr_player_walking_left
+	sprite_index = spr_player_walking_right
+	if (!mirrored) {
+		image_xscale = -1
+		x += 3 * global.grid_properties.box_size
+		mirrored = true
+	}
 } else if (y > _y_before) {
 	sprite_index = spr_player_walking_down
+	if (mirrored) {
+		image_xscale = 1
+		x -= 3 * global.grid_properties.box_size
+		mirrored = false
+	}
 } else if (y < _y_before) {
 	sprite_index = spr_player_walking_up
+	if (mirrored) {
+		image_xscale = 1
+		x -= 3 * global.grid_properties.box_size
+		mirrored = false
+	}
 } else {
 	// TODO Refactor locig to detect cutting animation
 	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : spr_player_standing
+	if (mirrored) {
+		image_xscale = 1
+		x -= 3 * global.grid_properties.box_size
+		mirrored = false
+	}
 }
 
 // cut weed

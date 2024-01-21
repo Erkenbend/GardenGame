@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_compost",
-  "bbox_bottom": 94,
+  "bbox_bottom": 95,
   "bbox_left": 0,
   "bbox_right": 95,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 95,
+  "height": 96,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2f4a8e2-f042-4347-a7ac-e75429176cdd","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},

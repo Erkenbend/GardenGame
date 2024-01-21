@@ -77,7 +77,6 @@
     {"id":{"name":"obj_testwall","path":"objects/obj_testwall/obj_testwall.yy",},},
     {"id":{"name":"obj_grid_element","path":"objects/obj_grid_element/obj_grid_element.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
-    {"id":{"name":"spr_player_walking_left","path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},},
     {"id":{"name":"obj_grass_dark","path":"objects/obj_grass_dark/obj_grass_dark.yy",},},
     {"id":{"name":"spr_player_standing","path":"sprites/spr_player_standing/spr_player_standing.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},

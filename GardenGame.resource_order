@@ -56,7 +56,6 @@
     {"name":"obj_testwall","order":4,"path":"objects/obj_testwall/obj_testwall.yy",},
     {"name":"obj_grid_element","order":1,"path":"objects/obj_grid_element/obj_grid_element.yy",},
     {"name":"spr_background","order":12,"path":"sprites/spr_background/spr_background.yy",},
-    {"name":"spr_player_walking_left","order":2,"path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},
     {"name":"obj_grass_dark","order":1,"path":"objects/obj_grass_dark/obj_grass_dark.yy",},
     {"name":"spr_button","order":14,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_weed_big","order":5,"path":"sprites/spr_weed_big/spr_weed_big.yy",},
