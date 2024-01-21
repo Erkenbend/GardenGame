@@ -36,6 +36,7 @@ for(var _i = 0; _i < _grid_height; _i++) {
 		x_pos = _grid_start_x + _box_size * _j
 		y_pos = _grid_start_y + _box_size * _i
 		
+		/*
 		// check if there is no other object drawn on the grid field
 		if (!instance_position(x_pos, y_pos, obj_grid_element)) {
 			// I'm sorry for this..
@@ -48,6 +49,7 @@ for(var _i = 0; _i < _grid_height; _i++) {
 				b.depth = 150
 			}
 		}
+		*/
     }
 }
 
