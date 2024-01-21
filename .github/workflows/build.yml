@@ -47,12 +47,12 @@ on:
 
 env:
   title: "GardenGame"
-  licenseFile: ".\\eng\\build\\licence.plist"
+  licenseFile: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\eng\\build\\licence.plist"
   rp: "C:\\ProgramData\\GameMakerStudio2\\Cache\\runtimes\\runtime-2023.11.1.160\\"
-  project: ".\\GardenGame.yyp"
-  of: ".\\.install\\"
-  tfPath: ".\\.install\\"
-  cache: ".\\.cache"
+  project: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\GardenGame.yyp"
+  of: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.install\\"
+  tf: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.install\\GardenGame.exe"
+  cache: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.cache\\"
   platform: "Windows"
   action: "PackageNsis"
 
@@ -63,8 +63,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: [self-hosted, windows, x64]
-    env:
-      tf: "${{ github.env.tfPath }}${{ github.env.title }}.exe"
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
