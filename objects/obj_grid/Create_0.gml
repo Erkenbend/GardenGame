@@ -7,6 +7,7 @@ _cannot_spawn_weed_on = [
 	obj_near_compost,
 	obj_rock,
 	obj_testwall,
+	obj_invisible_wall,
 	obj_weed
 ]
 

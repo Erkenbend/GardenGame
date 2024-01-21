@@ -45,6 +45,7 @@
   "resources": [
     {"id":{"name":"obj_weed","path":"objects/obj_weed/obj_weed.yy",},},
     {"id":{"name":"spr_grass_light","path":"sprites/spr_grass_light/spr_grass_light.yy",},},
+    {"id":{"name":"spr_invisible_wall","path":"sprites/spr_invisible_wall/spr_invisible_wall.yy",},},
     {"id":{"name":"obj_compost","path":"objects/obj_compost/obj_compost.yy",},},
     {"id":{"name":"spr_compost","path":"sprites/spr_compost/spr_compost.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"id":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},},
     {"id":{"name":"obj_button_main_menu","path":"objects/obj_button_main_menu/obj_button_main_menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_info_points_earned","path":"objects/obj_info_points_earned/obj_info_points_earned.yy",},},
