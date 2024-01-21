@@ -74,8 +74,8 @@ jobs:
       - name: Set variables
         id: globvars
         run: |
-          USER_INPUT=${{ github.event.inputs.userTitle }}
-          echo "title=${USER_INPUT:-"GardenGame"}" >> "$GITHUB_ENV"
+          $USER_INPUT=${{ github.event.inputs.userTitle }}
+          echo "title=${$USER_INPUT:-"GardenGame"}" >> "$GITHUB_ENV"
 
       # Runs a set of commands using the runners shell
       - name: Build project
