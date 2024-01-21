@@ -79,4 +79,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build project
         run: |
-          igor /lf="$licenseFile" /rp="$rp" /project="$project" /of="$of" /tf="$tf" /cache="$cache" -- $platform $action
+          igor /lf="$env:licenseFile" /rp="$env:rp" /project="$env:project" /of="$env:of" /tf="$env:tf" /cache="$env:cache" -- $env:platform $env:action
