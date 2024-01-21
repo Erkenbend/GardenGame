@@ -47,12 +47,12 @@ on:
 
 env:
   title: "GardenGame"
-  licenseFile: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\eng\\build\\licence.plist"
-  rp: "C:\\ProgramData\\GameMakerStudio2\\Cache\\runtimes\\runtime-2023.11.1.160\\"
-  project: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\GardenGame.yyp"
-  of: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.install\\"
-  tf: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.install\\GardenGame.exe"
-  cache: "C:\\actions-runner\\_work\\GardenGame\\GardenGame\\.cache\\"
+  licenseFile: "C:\\\actions-runner\\\_work\\\GardenGame\\\GardenGame\\\eng\\\build\\\licence.plist"
+  rp: "C:\\\ProgramData\\\GameMakerStudio2\\\Cache\\\runtimes\\\runtime-2023.11.1.160\\\"
+  project: "C:\\\actions-runner\\\_work\\\GardenGame\\\GardenGame\\\GardenGame.yyp"
+  of: "C:\\\actions-runner\\\_work\\\GardenGame\\\GardenGame\\\.install\\\"
+  tf: "C:\\\actions-runner\\\_work\\\GardenGame\\\GardenGame\\\.install\\\GardenGame.exe"
+  cache: "C:\\\actions-runner\\\_work\\\GardenGame\\\GardenGame\\\.cache\\\"
   platform: "Windows"
   action: "PackageNsis"
 
