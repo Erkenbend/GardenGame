@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_weed_small",
-  "bbox_bottom": 31,
+  "bbox_bottom": 37,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 38,
   "bbox_top": 0,
   "bboxMode": 1,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3354e483-08be-452c-99f7-58468348c61d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6045b979-6ed9-4ce3-88dc-1196e31f7fe3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 38,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c4130d86-3927-4165-bad9-3bd3dcbc0da4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3e116fa9-8f40-4408-94e0-b421040c9767","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3354e483-08be-452c-99f7-58468348c61d","path":"sprites/spr_weed_small/spr_weed_small.yy",},},},"Disabled":false,"id":"ee2afa2a-bf87-4c5b-ac74-d6b3acc4a9eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6045b979-6ed9-4ce3-88dc-1196e31f7fe3","path":"sprites/spr_weed_small/spr_weed_small.yy",},},},"Disabled":false,"id":"a1b04515-efa6-452e-a7af-4a03a10a7ea9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 39,
 }
