@@ -9,7 +9,10 @@
     "name": "Static",
     "path": "folders/Objects/Environment/Static.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_grid_element",
+    "path": "objects/obj_grid_element/obj_grid_element.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -7,10 +7,14 @@ switch sprite_index {
 		break
 	case spr_weed_medium:
 		sprite_index = spr_weed_big
+		y -= global.grid_properties.box_size  // compensate for changing sprite size
 		alarm[0] = get_variable_delay(global.weed_growth.delay_big_to_spread)
 		break
 	case spr_weed_big:
-		// Adding directions as comment. Im to tired to think :) 
+		// compensate for changing sprite size
+		sprite_index = spr_weed_small
+		y += global.grid_properties.box_size
+		
 		_spawn_new_instance(x, y - global.grid_properties.box_size)
 		_spawn_new_instance(x, y + global.grid_properties.box_size)
 		_spawn_new_instance(x + global.grid_properties.box_size, y)
