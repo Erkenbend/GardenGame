@@ -13,12 +13,12 @@ if place_meeting(x ,y, obj_player) {
 		case spr_weed_medium:
 			sprite_index = spr_weed_small
 			alarm[0] = get_variable_delay(global.weed_growth.delay_small_to_medium)
-			alarm[1] = _cutting_state._cutting_speed
+			alarm[1] = _cutting_state._speed
 			break
 		case spr_weed_big:
 			sprite_index = spr_weed_medium
 			alarm[0] = get_variable_delay(global.weed_growth.delay_medium_to_big)
-			alarm[1] = _cutting_state._cutting_speed
+			alarm[1] = _cutting_state._speed
 			break
 	}
 } else {

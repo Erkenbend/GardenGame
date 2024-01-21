@@ -130,7 +130,7 @@ if (x > _x_before) {
 
 // cut weed
 if place_meeting(x, y, obj_weed) {
-	instance_place(x, y, obj_weed).cutting_down(cut_down_speed)
+	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
 }
 
 // empty bag
