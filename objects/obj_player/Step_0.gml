@@ -118,46 +118,31 @@ if (((x - _x_move) % _box_size != 0 || (y - _y_move) % _box_size != 0 ) && (abs(
 // TODO: make this pretty
 if (x > _x_before) {
 	sprite_index = spr_player_walking_right
-	if (mirrored) {
-		image_xscale = 1
-		x -= 3 * global.grid_properties.box_size
-		mirrored = false
-	}
 } else if (x < _x_before) {
-	sprite_index = spr_player_walking_right
-	if (!mirrored) {
-		image_xscale = -1
-		x += 3 * global.grid_properties.box_size
-		mirrored = true
-	}
+	sprite_index = spr_player_walking_left
 } else if (y > _y_before) {
 	sprite_index = spr_player_walking_down
-	if (mirrored) {
-		image_xscale = 1
-		x -= 3 * global.grid_properties.box_size
-		mirrored = false
-	}
 } else if (y < _y_before) {
 	sprite_index = spr_player_walking_up
-	if (mirrored) {
-		image_xscale = 1
-		x -= 3 * global.grid_properties.box_size
-		mirrored = false
-	}
 } else {
 	// TODO Refactor locig to detect cutting animation
-	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : spr_player_standing
-	if (mirrored) {
-		image_xscale = 1
-		x -= 3 * global.grid_properties.box_size
-		mirrored = false
-	}
+	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : _get_standing_sprite()
 }
 
-// cut weed
-if place_meeting(x, y, obj_weed) {
-	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+// play or stop sound effect
+if (x != _x_before || y != _y_before) {
+	if (!audio_is_playing(snd_walk_grass)) {
+		//show_debug_message("START WALK SOUND")
+		audio_play_sound(snd_walk_grass, 0, true, 1)
+	}
+} else {
+	audio_stop_sound(snd_walk_grass)
 }
+
+if place_meeting(x, y, obj_weed) {
+       instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+}
+
 
 // empty bag
 if place_meeting(x, y, obj_near_compost) {

@@ -80,3 +80,9 @@ jobs:
       - name: Build project
         run: |
           igor /lf="$env:licenseFile" /rp="$env:rp" /project="$env:project" /of="$env:of" /tf="$env:tf" /cache="$env:cache" -- $env:platform $env:action
+      - uses: actions/upload-artifact@v4
+        name: Upload artifact
+        with:
+          name: GardenGameInstaller
+          path: .install/
+          if-no-files-found: error

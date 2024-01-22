@@ -23,3 +23,19 @@ _register_last_direction = function () {
 		last_pressed_dir = 2
 	}	
 }
+
+_get_standing_sprite = function() {
+	switch sprite_index {
+		case spr_player_walking_down:
+		case spr_player_cutting:
+			return spr_player_standing_down
+		case spr_player_walking_right:
+			return spr_player_standing_right
+		case spr_player_walking_left:
+			return spr_player_standing_left
+		case spr_player_walking_up:
+			return spr_player_standing_up
+		default:
+			return sprite_index
+	}
+}
