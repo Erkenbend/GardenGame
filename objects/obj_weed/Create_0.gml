@@ -5,7 +5,6 @@ depth = -100
 
 _cutting_state = {
   _is_getting_cut : false,	
-  _speed : 0
 }
 
 get_variable_delay = function (_base_delay) {
@@ -15,10 +14,19 @@ get_variable_delay = function (_base_delay) {
 alarm[0] = get_variable_delay(global.weed_growth.delay_small_to_medium)
 
 cutting_down = function(_cutting_speed) {
-	_cutting_state._speed = _cutting_speed
 	if !_cutting_state._is_getting_cut {
-		alarm[1] = _cutting_state._speed
-		_cutting_state._is_getting_cut = true
+		switch sprite_index {
+			case spr_weed_small:
+				alarm[1] = global.weed_growth.cut_small / _cutting_speed
+				break
+			case spr_weed_medium:
+				alarm[1] = global.weed_growth.cut_medium / _cutting_speed
+				break
+			case spr_weed_big:
+				alarm[1] = global.weed_growth.cut_big / _cutting_speed
+				break
+
+		}
 	}
 }
 

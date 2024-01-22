@@ -1,5 +1,8 @@
 /// @description Grow to next stage if possible
-
+if place_meeting(x,y,obj_player) {
+	alarm[0] = 30
+	exit	
+}
 switch sprite_index {
 	case spr_weed_small:
 		sprite_index = spr_weed_medium

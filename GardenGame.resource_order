@@ -21,10 +21,10 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"health_bar","order":19,"path":"folders/Sprites/health_bar.yy",},
     {"name":"player","order":13,"path":"folders/Sprites/player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"health_bar","order":19,"path":"folders/Sprites/health_bar.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_card_dummy_2","order":18,"path":"sprites/spr_card_dummy_2/spr_card_dummy_2.yy",},

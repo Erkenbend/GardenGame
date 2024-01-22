@@ -18,7 +18,7 @@ global.bag_content = 0
 
 global.points_per_cut = 10
 global.bag_capacity = 2
-global.cut_down_duration = 30
+global.cut_down_duration = 1
 
 global.ui = {
 	info_text_duration: 60
@@ -43,6 +43,9 @@ global.weed_growth = {
 	delay_random_variability: 60,
 	max_instance_count: 30,
 	spread_spawn_probability: 0.75,
+	cut_small: 60,
+	cut_medium: 120,
+	cut_big: 180
 }
 
 global.player_movement = {

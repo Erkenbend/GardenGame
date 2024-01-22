@@ -139,10 +139,10 @@ if (x != _x_before || y != _y_before) {
 	audio_stop_sound(snd_walk_grass)
 }
 
-// cut weed
 if place_meeting(x, y, obj_weed) {
-	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+       instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
 }
+
 
 // empty bag
 if place_meeting(x, y, obj_near_compost) {
