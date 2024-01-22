@@ -1,4 +1,7 @@
 /// @description cut down
+if !place_meeting(x,y,obj_player) {
+	exit
+}
 if (global.bag_content < global.bag_capacity) {
     global.bag_content++
 } else {

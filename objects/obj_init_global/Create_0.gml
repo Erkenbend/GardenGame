@@ -18,7 +18,7 @@ global.bag_content = 0
 
 global.points_per_cut = 10
 global.bag_capacity = 2
-global.cut_down_duration = 1
+global.cut_down_duration =3
 
 global.ui = {
 	info_text_duration: 60
