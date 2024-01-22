@@ -129,6 +129,16 @@ if (x > _x_before) {
 	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : _get_standing_sprite()
 }
 
+// play or stop sound effect
+if (x != _x_before || y != _y_before) {
+	if (!audio_is_playing(snd_walk_grass)) {
+		//show_debug_message("START WALK SOUND")
+		audio_play_sound(snd_walk_grass, 0, true, 1)
+	}
+} else {
+	audio_stop_sound(snd_walk_grass)
+}
+
 // cut weed
 if place_meeting(x, y, obj_weed) {
 	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
