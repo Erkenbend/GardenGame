@@ -50,6 +50,7 @@
     {"id":{"name":"obj_weed","path":"objects/obj_weed/obj_weed.yy",},},
     {"id":{"name":"spr_grass_light","path":"sprites/spr_grass_light/spr_grass_light.yy",},},
     {"id":{"name":"spr_invisible_wall","path":"sprites/spr_invisible_wall/spr_invisible_wall.yy",},},
+    {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
     {"id":{"name":"obj_compost","path":"objects/obj_compost/obj_compost.yy",},},
     {"id":{"name":"spr_compost","path":"sprites/spr_compost/spr_compost.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
@@ -118,6 +119,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
+    {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
