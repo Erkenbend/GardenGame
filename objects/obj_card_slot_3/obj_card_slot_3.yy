@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_card_dummy_1",
+  "name": "obj_card_slot_3",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,10 +11,7 @@
     "name": "cards",
     "path": "folders/Objects/Deckbuilding/cards.yy",
   },
-  "parentObjectId": {
-    "name": "obj_card_parent",
-    "path": "objects/obj_card_parent/obj_card_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_card_dummy_1",
-    "path": "sprites/spr_card_dummy_1/spr_card_dummy_1.yy",
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
   },
   "spriteMaskId": null,
   "visible": true,

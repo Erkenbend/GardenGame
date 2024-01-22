@@ -11,7 +11,9 @@ randomize()
 
 global.score = 0
 global.high_score = 0
+global.bag_capacity_multiplier = 1
 global.bag_content = 0
+
 
 
 //// IMMUTABLE CONFIG
@@ -47,7 +49,11 @@ global.weed_growth = {
 
 global.player_movement = {
 	move_speed_initial: 5,
-	debris_move_speed_modifier: 0.2
+	debris_move_speed_modifier: 0.2,
+	move_speed_multiplier: 1
 }
+
+global.cards_in_deck = [obj_card_dummy_1, obj_card_dummy_2]
+
 
 alarm[0] = 1  // add fake loading time if needed

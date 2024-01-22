@@ -26,7 +26,7 @@ if (_up_key xor _down_key) {
 }
 
 // reduce movement speed when on debris
-move_speed = global.player_movement.move_speed_initial
+move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
 if (place_meeting(x, y, obj_debris)) {
 	move_speed *= global.player_movement.debris_move_speed_modifier
 }

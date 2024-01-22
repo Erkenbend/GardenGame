@@ -2,14 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_card_dummy_2",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "cards",
     "path": "folders/Objects/Deckbuilding/cards.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_card_parent",
+    "path": "objects/obj_card_parent/obj_card_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
