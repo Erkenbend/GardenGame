@@ -1,6 +1,5 @@
 /// @description Hier Beschreibung einfügen
 var _insanity = instance_number(obj_weed) / global.weed_growth.max_instance_count
-show_debug_message(_insanity)
 if _insanity < 0.25 {
 	sprite_index = spr_health_bar_0	
 }
