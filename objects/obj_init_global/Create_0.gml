@@ -11,14 +11,14 @@ randomize()
 
 global.score = 0
 global.high_score = 0
+global.bag_capacity_multiplier = 1
 global.bag_content = 0
-
 
 //// IMMUTABLE CONFIG
 
 global.points_per_cut = 10
 global.bag_capacity = 2
-global.cut_down_duration = 30
+global.cut_down_duration = 3
 
 global.ui = {
 	info_text_duration: 60
@@ -43,11 +43,26 @@ global.weed_growth = {
 	delay_random_variability: 60,
 	max_instance_count: 30,
 	spread_spawn_probability: 0.75,
+	cut_small: 60,
+	cut_medium: 120,
+	cut_big: 180
 }
 
 global.player_movement = {
-	move_speed_initial: 5,
-	debris_move_speed_modifier: 0.2
+	move_speed_initial: 8,
+	debris_move_speed_modifier: 0.4,
+	debris_move_speed_modifier_initial: 0.4,
+	move_speed_multiplier: 1,
+	move_speed_temporary_multiplier: 1.5
 }
+
+global.cards_in_deck = [
+obj_move_speed_temporary,
+obj_move_speed_permanent,
+obj_move_speed_immunity,
+obj_weed_slow,
+obj_bag_increase]
+
+global.cards_in_deck_count = array_length(global.cards_in_deck)
 
 alarm[0] = 1  // add fake loading time if needed

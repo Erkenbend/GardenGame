@@ -1,6 +1,6 @@
 // variables for movement
 move_dir = 0
-move_speed = global.player_movement.move_speed_initial
+move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
 move_started = false
 
 mirrored = false

@@ -26,7 +26,7 @@ if (_up_key xor _down_key) {
 }
 
 // reduce movement speed when on debris
-move_speed = global.player_movement.move_speed_initial
+move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
 if (place_meeting(x, y, obj_debris)) {
 	move_speed *= global.player_movement.debris_move_speed_modifier
 }
@@ -129,10 +129,20 @@ if (x > _x_before) {
 	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : _get_standing_sprite()
 }
 
-// cut weed
-if place_meeting(x, y, obj_weed) {
-	instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+// play or stop sound effect
+if (x != _x_before || y != _y_before) {
+	if (!audio_is_playing(snd_walk_grass)) {
+		//show_debug_message("START WALK SOUND")
+		audio_play_sound(snd_walk_grass, 0, true, 1)
+	}
+} else {
+	audio_stop_sound(snd_walk_grass)
 }
+
+if place_meeting(x, y, obj_weed) {
+       instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
+}
+
 
 // empty bag
 if place_meeting(x, y, obj_near_compost) {
