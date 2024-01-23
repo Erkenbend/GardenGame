@@ -14,7 +14,6 @@ global.high_score = 0
 global.bag_capacity_multiplier = 1
 global.bag_content = 0
 
-
 //// IMMUTABLE CONFIG
 
 global.points_per_cut = 10
@@ -52,9 +51,18 @@ global.weed_growth = {
 global.player_movement = {
 	move_speed_initial: 8,
 	debris_move_speed_modifier: 0.4,
-	move_speed_multiplier: 1
+	debris_move_speed_modifier_initial: 0.4,
+	move_speed_multiplier: 1,
+	move_speed_temporary_multiplier: 1.5
 }
 
-global.cards_in_deck = [obj_card_dummy_1, obj_card_dummy_2]
+global.cards_in_deck = [
+obj_move_speed_temporary,
+obj_move_speed_permanent,
+obj_move_speed_immunity,
+obj_weed_slow,
+obj_bag_increase]
+
+global.cards_in_deck_count = array_length(global.cards_in_deck)
 
 alarm[0] = 1  // add fake loading time if needed
