@@ -61,7 +61,8 @@ obj_move_speed_temporary,
 obj_move_speed_permanent,
 obj_move_speed_immunity,
 obj_weed_slow,
-obj_bag_increase]
+obj_bag_increase,
+obj_player_aoe]
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
 
