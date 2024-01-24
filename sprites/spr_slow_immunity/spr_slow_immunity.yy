@@ -4,7 +4,7 @@
   "name": "spr_slow_immunity",
   "bbox_bottom": 127,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 84,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 85,
 }
