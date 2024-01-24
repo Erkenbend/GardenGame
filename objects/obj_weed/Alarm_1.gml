@@ -3,10 +3,6 @@ if !place_meeting(x,y,obj_player) {
 	exit
 }
 
-show_debug_message("1")
-show_debug_message(global.bag_content)
-show_debug_message(global.bag_capacity)
-
 if (global.bag_content < global.bag_capacity) {
     global.bag_content++
 } else {

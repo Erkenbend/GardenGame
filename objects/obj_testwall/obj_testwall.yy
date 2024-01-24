@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_dirt_road",
-    "path": "sprites/spr_dirt_road/spr_dirt_road.yy",
+    "name": "spr_hedge",
+    "path": "sprites/spr_hedge/spr_hedge.yy",
   },
   "spriteMaskId": null,
   "visible": true,
