@@ -6,4 +6,3 @@ obj_deck.alarm[3] = 240
 
 
 
-
