@@ -12,6 +12,8 @@ var _y_before = y
 var _x_move = 0
 var _y_move = 0
 
+var _walk_sound = snd_walk_grass
+
 _register_last_direction()
 
 // short name
@@ -25,11 +27,18 @@ if (_up_key xor _down_key) {
 	_y_movement_sign += _down_key ? 1 : -1
 }
 
-// reduce movement speed when on debris
+// reduce movement speed when on debris + change walk audio
 move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
 if (place_meeting(x, y, obj_debris)) {
 	move_speed *= global.player_movement.debris_move_speed_modifier
+	audio_stop_sound(snd_walk_grass)
+	_walk_sound = snd_walk_dirt
+} else {
+	audio_stop_sound(snd_walk_dirt)
+	_walk_sound = snd_walk_grass
 }
+
+
 if (move_started) {
 	// when between tiles: finish movement in the given direction before accepting new inputs
 	_x_move = round(move_speed * cos(move_dir))
@@ -76,6 +85,9 @@ if (place_free(x + _x_move, y + _y_move)) {
 		//show_debug_message(string_concat("PXW ", x, " ", y))
 		x += _x_mini_move
 		y += _y_mini_move
+	}
+	if(!audio_is_playing(snd_soft_hit_2)){
+		audio_play_sound(snd_soft_hit_2, 0, false, 0.5)
 	}
 	move_started = false
 }
@@ -124,31 +136,37 @@ if (x > _x_before) {
 	sprite_index = spr_player_walking_down
 } else if (y < _y_before) {
 	sprite_index = spr_player_walking_up
-} else {
+} else if (place_meeting(x, y, obj_weed)) {
 	// TODO Refactor locig to detect cutting animation
-	sprite_index = place_meeting(x, y, obj_weed) ? spr_player_cutting : _get_standing_sprite()
+	sprite_index = spr_player_cutting
+	if(!audio_is_playing(snd_scissor07_3)) {
+		audio_play_sound(snd_scissor07_3, 0 , true)
+	}
+	
+} else {
+	sprite_index = _get_standing_sprite()
 }
 
-// play or stop sound effect
+// play or stop walk sound effect
 if (x != _x_before || y != _y_before) {
-	if (!audio_is_playing(snd_walk_grass)) {
+	if (!audio_is_playing(_walk_sound)) {
 		//show_debug_message("START WALK SOUND")
-		audio_play_sound(snd_walk_grass, 0, true, 1)
+		audio_play_sound(_walk_sound, 0, true, 1)
 	}
 } else {
-	audio_stop_sound(snd_walk_grass)
+	audio_stop_sound(_walk_sound)
 }
 
 if place_meeting(x, y, obj_weed) {
        instance_place(x, y, obj_weed).cutting_down(global.cut_down_duration)
 }
 
-
 // empty bag
 if place_meeting(x, y, obj_near_compost) {
 	global.score += global.bag_content * global.points_per_cut
 	if (global.bag_content > 0 && !instance_exists(obj_info_points_earned)) {
 		instance_create_layer(x - 20, y - 100, "Instances", obj_info_points_earned)
+		ref_snd_bag = audio_play_sound(global.sfx.bag_shake[irandom(2)], 0, false, 1)
 	}
 	global.bag_content = 0
 }

@@ -66,4 +66,11 @@ obj_player_aoe]
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
 
+// SFX
+
+global.sfx = {
+	bag_shake: [snd_shake_bag_1, snd_shake_bag_2, snd_shake_bag_3],
+	throw_compost: [snd_throw_compost_1, snd_throw_compost_2, snd_throw_compost_3, snd_throw_compost_4, snd_throw_compost_5]
+}
+
 alarm[0] = 1  // add fake loading time if needed

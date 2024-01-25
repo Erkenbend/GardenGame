@@ -3,6 +3,9 @@ move_dir = 0
 move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
 move_started = false
 
+//snd refs for sfx play control
+ref_snd_bag = undefined
+
 mirrored = false
 
 // 1 for horiz, 2 for vert
