@@ -22,6 +22,7 @@ var _box_size = global.grid_properties.box_size
 // determine move direction, cancelling double key press in opposite directions
 if (_right_key xor _left_key) {
 	_x_movement_sign += _right_key ? 1 : -1
+	
 }
 if (_up_key xor _down_key) {
 	_y_movement_sign += _down_key ? 1 : -1
