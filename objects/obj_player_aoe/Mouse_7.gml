@@ -1,5 +1,10 @@
 /// @description 
 
+event_inherited()
+if (!obj_deck.cards_clickable) {
+	exit
+}
+
 var _player_x = obj_player.x
 var _player_y = obj_player.y
 
@@ -24,6 +29,8 @@ for (var _i = 0; _i < array_length(_instances); _i++) {
 }
 
 effect_create_layer("Instances", ef_explosion, _player_x + 48, _player_y + 48, 1, c_green)
+
+obj_deck.cards_clickable = false
 
 /*
 // Test AoE radius with these creates

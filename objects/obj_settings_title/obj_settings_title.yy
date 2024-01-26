@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_insanity_slow",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "name": "obj_settings_title",
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Settings",},
+  ],
   "parent": {
-    "name": "cards",
-    "path": "folders/Objects/Deckbuilding/cards.yy",
+    "name": "settings",
+    "path": "folders/Objects/UI/menu/settings.yy",
   },
   "parentObjectId": {
-    "name": "obj_card_parent",
-    "path": "objects/obj_card_parent/obj_card_parent.yy",
+    "name": "obj_textbox",
+    "path": "objects/obj_textbox/obj_textbox.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_insanity_slow",
-    "path": "sprites/spr_insanity_slow/spr_insanity_slow.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

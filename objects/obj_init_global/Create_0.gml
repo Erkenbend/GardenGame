@@ -11,12 +11,25 @@ randomize()
 
 global.score = 0
 global.high_score = {
-	rm_level_0 : 0,
-	rm_level_1 : 0
+	easy: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	},
+	normal: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	},
+	hard: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	}
 }
+
 global.bag_content = 0
 global.current_level = rm_level_1
 global.difficulty_multiplier = 1
+global.difficulty_name = "normal"
+global.skip_intro = false
 
 //// IMMUTABLE CONFIG
 
@@ -41,7 +54,7 @@ global.grid_properties = {
 
 global.weed_growth = {
 	delay_initial_spawn: 60,
-	delay_spawn_small: 240,
+	delay_spawn_small: 180,
 	delay_small_to_medium: 240,
 	delay_medium_to_big: 480,
 	delay_big_to_spread: 240,
@@ -59,6 +72,7 @@ global.player_movement = {
 	move_speed_temporary_multiplier: 1.5,
 }
 
+
 global.cards_in_deck = [
 	obj_move_speed_temporary,
 	obj_move_speed_permanent,
@@ -67,17 +81,17 @@ global.cards_in_deck = [
 	obj_bag_increase,
 	obj_player_aoe,
 	obj_player_spray,
-	obj_insanity_slow
+	obj_insanity_slow_permanent
 ]
-
 /*
 global.cards_in_deck = [
-obj_insanity_slow]
-*/
+obj_insanity_slow_temporary]
 
+*/
 global.powerups = {
 	click_cooldown: 120,
-	temp_effect_duration: 240
+	recently_clicked_duration: 180,
+	temp_effect_duration: 240,
 }
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
@@ -93,8 +107,8 @@ global.music = {
 	music_gain: 0.4,
 	music: [snd_garden_theme_2],
 	ambiente_gain: 0.2,
-	ambiente: [snd_ambiente]
-	
+	ambiente: [snd_ambiente],
+	sound_effects_gain: 1
 }
 
 

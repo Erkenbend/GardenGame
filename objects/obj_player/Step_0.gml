@@ -89,7 +89,7 @@ if (place_free(x + _x_move, y + _y_move)) {
 		y += _y_mini_move
 	}
 	if(!audio_is_playing(snd_soft_hit_2)){
-		audio_play_sound(snd_soft_hit_2, 0, false, 0.5)
+		audio_play_sound(snd_soft_hit_2, 0, false, 0.5 * global.music.sound_effects_gain)
 	}
 	move_started = false
 }
@@ -142,21 +142,26 @@ if (x > _x_before) {
 	// TODO Refactor locig to detect cutting animation
 	sprite_index = spr_player_cutting
 	if(!audio_is_playing(snd_scissor07_3)) {
-		audio_play_sound(snd_scissor07_3, 0 , true)
+		audio_play_sound(snd_scissor07_3, 0 , true, global.music.sound_effects_gain)
 	}
 	
 } else {
 	sprite_index = _get_standing_sprite()
+	audio_stop_sound(snd_scissor07_3)
 }
 
 // play or stop walk sound effect
 if (x != _x_before || y != _y_before) {
 	if (!audio_is_playing(_walk_sound)) {
 		//show_debug_message("START WALK SOUND")
-		audio_play_sound(_walk_sound, 0, true, 1)
+		audio_play_sound(_walk_sound, 0, true, 1 * global.music.sound_effects_gain)
 	}
 } else {
 	audio_stop_sound(_walk_sound)
+}
+
+if sprite_index != spr_player_cutting {
+	audio_stop_sound(snd_scissor07_3)	
 }
 
 if place_meeting(x, y, obj_weed) {
@@ -168,7 +173,7 @@ if place_meeting(x, y, obj_near_compost) {
 	global.score += global.bag_content * global.points_per_cut
 	if (global.bag_content > 0 && !instance_exists(obj_info_points_earned)) {
 		instance_create_layer(x - 20, y - 100, "Instances", obj_info_points_earned)
-		ref_snd_bag = audio_play_sound(global.sfx.bag_shake[irandom(2)], 0, false, 1)
+		ref_snd_bag = audio_play_sound(global.sfx.bag_shake[irandom(2)], 0, false, 1 * global.music.sound_effects_gain)
 	}
 	global.bag_content = 0
 }

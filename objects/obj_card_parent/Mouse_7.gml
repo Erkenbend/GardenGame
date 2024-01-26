@@ -1,28 +1,32 @@
 /// @description 
 
+if (obj_deck.cards_clickable) {
+	recently_clicked = true
+	alarm[0] = global.powerups.recently_clicked_duration
 
-instance_destroy(obj_card_parent)
+	obj_deck.alarm[0] = global.powerups.click_cooldown * global.difficulty_multiplier
 
-var _rand = irandom(global.cards_in_deck_count - 1)
-show_debug_message(_rand)
+	// destroy all cards
+	instance_destroy(obj_card_parent)
 
-instance_create_depth(
-	704, 
-	928, 
-	-100,
-	global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
-)
+	instance_create_depth(
+		704, 
+		928, 
+		-100,
+		global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
+	)
 
-instance_create_depth(
-	896, 
-	928, 
-	-100,
-	global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
-)
+	instance_create_depth(
+		896, 
+		928, 
+		-100,
+		global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
+	)
 
-instance_create_depth(
-	1088, 
-	928, 
-	-100,
-	global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
-)
+	instance_create_depth(
+		1088, 
+		928, 
+		-100,
+		global.cards_in_deck[irandom(global.cards_in_deck_count - 1)]
+	)
+}

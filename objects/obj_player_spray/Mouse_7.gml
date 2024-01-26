@@ -1,5 +1,11 @@
 /// @description 
 
+event_inherited()
+
+if (!obj_deck.cards_clickable) {
+	exit
+}
+
 var _player_x = obj_player.x
 var _player_y = obj_player.y
 var _player_direction = obj_player.direction
@@ -94,6 +100,7 @@ if (_lastkey == vk_left) {
 	effect_create_layer("Instances", ef_star, _player_x - 128, _player_y + 32, 1, c_green)
 }
 
+obj_deck.cards_clickable = false
 
 /*
 

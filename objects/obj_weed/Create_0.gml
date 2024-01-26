@@ -31,7 +31,11 @@ cutting_down = function(_cutting_speed) {
 }
 
 _spawn_new_instance = function (_x, _y) {
-	if (place_free(_x,_y) && !place_meeting(_x, _y, obj_weed) && instance_number(obj_weed) < global.weed_growth.max_instance_count) {
+	if (
+		place_free(_x,_y)
+		&& !place_meeting(_x, _y, obj_weed)
+		//&& instance_number(obj_weed) < global.weed_growth.max_instance_count
+	) {
 		instance_create_layer(_x,_y, "Instances", obj_weed)
 	}
 }
