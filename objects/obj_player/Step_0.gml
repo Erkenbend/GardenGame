@@ -28,9 +28,9 @@ if (_up_key xor _down_key) {
 	_y_movement_sign += _down_key ? 1 : -1
 }
 
-// reduce movement speed when on debris + change walk audio
+// reduce movement speed when on debris and weed + change walk audio
 move_speed =  global.player_movement.move_speed_initial * modifiers.move_speed_permanent_multiplier * modifiers.move_speed_temporary_multiplier
-if (place_meeting(x, y, obj_debris)) {
+if (place_meeting(x, y, obj_debris) || place_meeting(x, y, obj_weed)) {
 	if (!modifiers.debris_immunity) {
 		move_speed *= global.player_movement.debris_move_speed_multiplier
 	}

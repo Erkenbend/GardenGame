@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_landlord_calm",
-    "path": "sprites/spr_landlord_calm/spr_landlord_calm.yy",
+    "name": "spr_landlord_happy",
+    "path": "sprites/spr_landlord_happy/spr_landlord_happy.yy",
   },
   "spriteMaskId": null,
   "visible": true,

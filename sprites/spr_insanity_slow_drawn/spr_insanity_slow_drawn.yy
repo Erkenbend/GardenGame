@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_insanity_slow_drawn",
-  "bbox_bottom": 0,
+  "bbox_bottom": 127,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 95,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67b2cd5e-e8bf-44f1-8810-3a39f4d71ff6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06bca6f1-6b71-43ca-a360-8bd5cf5d03df",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e302fb65-e563-49d6-bc3d-5ac2ffc3a245","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6bfb047f-a965-4d38-8040-557cb729b45b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"67b2cd5e-e8bf-44f1-8810-3a39f4d71ff6","path":"sprites/spr_insanity_slow_drawn/spr_insanity_slow_drawn.yy",},},},"Disabled":false,"id":"6843c9ac-0489-45a1-a4fc-8c8c2eb90c8e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"06bca6f1-6b71-43ca-a360-8bd5cf5d03df","path":"sprites/spr_insanity_slow_drawn/spr_insanity_slow_drawn.yy",},},},"Disabled":false,"id":"dce4fd63-a96b-4f29-8679-258450947ffb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 96,
 }
