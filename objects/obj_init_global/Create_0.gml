@@ -29,6 +29,7 @@ global.bag_content = 0
 global.current_level = rm_level_1
 global.difficulty_multiplier = 1
 global.difficulty_name = "normal"
+global.skip_intro = false
 
 //// IMMUTABLE CONFIG
 
