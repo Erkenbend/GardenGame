@@ -77,7 +77,8 @@ obj_insanity_slow]
 
 global.powerups = {
 	click_cooldown: 120,
-	temp_effect_duration: 240
+	recently_clicked_duration: 180,
+	temp_effect_duration: 240,
 }
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)

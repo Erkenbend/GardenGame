@@ -1,5 +1,7 @@
 /// @description 
 
+cards_clickable = true
+
 draw_self()
 
 instance_create_depth(

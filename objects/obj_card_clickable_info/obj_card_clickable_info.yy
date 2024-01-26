@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_move_speed_permanent",
+  "name": "obj_card_clickable_info",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "cards",
-    "path": "folders/Objects/Deckbuilding/cards.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": {
-    "name": "obj_card_parent",
-    "path": "objects/obj_card_parent/obj_card_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_move_speed_permanent_drawn",
-    "path": "sprites/spr_move_speed_permanent_drawn/spr_move_speed_permanent_drawn.yy",
+    "name": "spr_card_clickable_yes",
+    "path": "sprites/spr_card_clickable_yes/spr_card_clickable_yes.yy",
   },
   "spriteMaskId": null,
   "visible": true,

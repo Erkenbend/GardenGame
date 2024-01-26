@@ -1,5 +1,11 @@
 /// @description 
 
+event_inherited()
+
+if (!obj_deck.cards_clickable) {
+	exit
+}
+
 var _player_x = obj_player.x
 var _player_y = obj_player.y
 var _player_direction = obj_player.direction
