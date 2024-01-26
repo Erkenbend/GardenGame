@@ -4,7 +4,7 @@
   "name": "spr_player_spray",
   "bbox_bottom": 127,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 84,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 128,
+  "width": 85,
 }

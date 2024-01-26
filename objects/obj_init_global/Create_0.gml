@@ -58,19 +58,22 @@ global.player_movement = {
 	move_speed_temporary_multiplier: 1.5
 }
 
-/*
-global.cards_in_deck = [
-obj_move_speed_temporary,
-obj_move_speed_permanent,
-obj_move_speed_immunity,
-obj_weed_slow,
-obj_bag_increase,
-obj_player_aoe,
-obj_player_spray]
-*/
 
 global.cards_in_deck = [
+	obj_move_speed_temporary,
+	obj_move_speed_permanent,
+	obj_move_speed_immunity,
+	obj_weed_slow,
+	obj_bag_increase,
+	obj_player_aoe,
+	obj_player_spray
+]
+
+
+/*
+global.cards_in_deck = [
 obj_player_spray]
+*/
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
 
