@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_near_compost",
-    "path": "sprites/spr_near_compost/spr_near_compost.yy",
+    "name": "spr_near_compost_clean",
+    "path": "sprites/spr_near_compost_clean/spr_near_compost_clean.yy",
   },
   "spriteMaskId": null,
   "visible": true,

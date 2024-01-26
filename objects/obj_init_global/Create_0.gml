@@ -72,24 +72,26 @@ global.player_movement = {
 	move_speed_temporary_multiplier: 1.5,
 }
 
-
 global.cards_in_deck = [
+	obj_move_speed_temporary,
 	obj_move_speed_temporary,
 	obj_move_speed_permanent,
 	obj_move_speed_immunity,
 	obj_weed_slow,
+	obj_weed_slow,
 	obj_bag_increase,
 	obj_player_aoe,
-	obj_player_spray,
+	//obj_player_spray,
 	obj_insanity_slow_permanent
 ]
+
 /*
 global.cards_in_deck = [
 obj_insanity_slow_temporary]
-
 */
+
 global.powerups = {
-	click_cooldown: 120,
+	click_cooldown: 240,
 	recently_clicked_duration: 180,
 	temp_effect_duration: 240,
 }
@@ -109,6 +111,10 @@ global.music = {
 	sound_effects_gain: 1
 }
 
+global.dialog = {
+	opacity_speed: 0.05,
+	display_delay: 120
+}
 
 global.translation = {
 	rooms : {
