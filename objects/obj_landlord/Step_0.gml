@@ -23,7 +23,14 @@ if _insanity >= 1 {
 }
 
 // compute movement
+/*
 if x > max_x || x < min_x {
 	move_dir *= -1
 }
 x += move_dir * power(_insanity, 2) * move_speed
+*/
+
+if image_angle > max_tilt || image_angle < -max_tilt {
+	move_dir *= -1
+}
+image_angle += move_dir * power(_insanity, 2) * tilt_speed
