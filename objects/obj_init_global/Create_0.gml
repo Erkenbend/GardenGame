@@ -29,6 +29,7 @@ global.bag_content = 0
 global.current_level = rm_level_1
 global.difficulty_multiplier = 1
 global.difficulty_name = "normal"
+global.game_paused = false
 global.skip_intro = false
 
 //// IMMUTABLE CONFIG
@@ -106,8 +107,10 @@ global.sfx = {
 }
 
 global.music = {
-	music_gain: 0.5,
-	songs: [snd_garden_theme_2],
+	music_gain: 0.4,
+	music: [snd_garden_theme_2],
+	ambiente_gain: 0.2,
+	ambiente: [snd_ambiente],
 	sound_effects_gain: 1
 }
 
