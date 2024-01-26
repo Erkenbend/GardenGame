@@ -13,8 +13,8 @@ while (true) {
 		instance_create_layer(x_pos, y_pos,	"Instances", obj_weed)
 		break
 	} else {
-		//show_debug_message("Need to retry weed placement")
+		// show_debug_message("Need to retry weed placement")
 	}
 }
 
-alarm[0] = obj_weed.get_variable_delay(global.weed_growth.delay_spawn_small) / 3
+alarm[0] = obj_weed.get_variable_delay(global.weed_growth.delay_spawn_small)

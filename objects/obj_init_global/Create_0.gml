@@ -53,7 +53,7 @@ global.grid_properties = {
 
 global.weed_growth = {
 	delay_initial_spawn: 60,
-	delay_spawn_small: 240,
+	delay_spawn_small: 180,
 	delay_small_to_medium: 240,
 	delay_medium_to_big: 480,
 	delay_big_to_spread: 240,
@@ -80,7 +80,7 @@ global.cards_in_deck = [
 	obj_bag_increase,
 	obj_player_aoe,
 	obj_player_spray,
-	obj_insanity_slow_temporary
+	obj_insanity_slow_permanent
 ]
 /*
 global.cards_in_deck = [
