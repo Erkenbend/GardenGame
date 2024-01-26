@@ -5,10 +5,10 @@ if !alive {
 	exit
 }
 
-var _insanity = instance_number(obj_weed) / global.weed_growth.max_instance_count
+var _insanity = obj_player.modifiers.insanity_multiplier * instance_number(obj_weed) / global.weed_growth.max_instance_count
 
 // update sprite
-if _insanity == 1 {
+if _insanity >= 1 {
 	alive = false
 	audio_stop_sound(snd_walk_grass)
 	audio_stop_sound(snd_walk_dirt)
