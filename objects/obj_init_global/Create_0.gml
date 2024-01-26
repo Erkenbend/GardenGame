@@ -10,7 +10,10 @@ randomize()
 //// MUTABLE STATE
 
 global.score = 0
-global.high_score = 0
+global.high_score = {
+	rm_level_0 : 0,
+	rm_level_1 : 0
+}
 global.bag_content = 0
 global.current_level = rm_level_1
 

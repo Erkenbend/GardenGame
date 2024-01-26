@@ -12,7 +12,8 @@ modifiers = {
 	extra_bag_capacity: 0,
 	debris_immunity: false,
 	move_speed_permanent_multiplier: 1,
-	move_speed_temporary_multiplier: 1
+	move_speed_temporary_multiplier: 1,
+	insanity_multiplier: 1,  // TODO: implement the card that changes this modifier
 }
 
 // variables for movement

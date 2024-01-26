@@ -1,6 +1,6 @@
 /// @description Update health bar and possibly end game
 
-var _insanity = instance_number(obj_weed) / global.weed_growth.max_instance_count
+var _insanity = obj_player.modifiers.insanity_multiplier * instance_number(obj_weed) / global.weed_growth.max_instance_count
 
 if _insanity > 0.9 {
 	sprite_index = spr_health_bar_100
