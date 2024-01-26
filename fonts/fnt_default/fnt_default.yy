@@ -191,8 +191,8 @@
   "lineHeight": 18,
   "maintainGms1Font": false,
   "parent": {
-    "name": "GardenGame",
-    "path": "GardenGame.yyp",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [
