@@ -16,6 +16,7 @@ global.high_score = {
 }
 global.bag_content = 0
 global.current_level = rm_level_1
+global.difficulty_multiplier = 1
 
 //// IMMUTABLE CONFIG
 

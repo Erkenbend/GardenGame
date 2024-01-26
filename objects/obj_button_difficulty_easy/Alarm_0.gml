@@ -1,4 +1,4 @@
 /// @description 
-event_inherited();
+event_inherited()
 
 global.difficulty_multiplier = 0.6

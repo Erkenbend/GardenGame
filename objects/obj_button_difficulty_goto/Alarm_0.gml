@@ -1,4 +1,4 @@
 /// @description 
-event_inherited();
+event_inherited()
 
 room_goto(rm_difficulty)

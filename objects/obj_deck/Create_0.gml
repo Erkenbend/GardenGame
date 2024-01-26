@@ -1,13 +1,5 @@
 /// @description 
 
-
-if (variable_global_exists("difficulty_multiplier") == true) {
-	spread_spawn_probability_initial = global.weed_growth.spread_spawn_probability * global.difficulty_multiplier 
-} else {
-	spread_spawn_probability_initial  = global.weed_growth.spread_spawn_probability
-}
-
-
 draw_self()
 
 instance_create_depth(
