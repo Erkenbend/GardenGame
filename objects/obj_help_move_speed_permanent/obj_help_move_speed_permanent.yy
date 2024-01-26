@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Permanently increase move speed\\nby a small amount permanently",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Permanently increase move speed\\nby a small amount",},
   ],
   "parent": {
     "name": "help",
