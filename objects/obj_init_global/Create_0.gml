@@ -11,12 +11,24 @@ randomize()
 
 global.score = 0
 global.high_score = {
-	rm_level_0 : 0,
-	rm_level_1 : 0
+	easy: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	},
+	normal: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	},
+	hard: {
+		rm_level_0 : 0,
+		rm_level_1 : 0
+	}
 }
+	
 global.bag_content = 0
 global.current_level = rm_level_1
 global.difficulty_multiplier = 1
+global.difficulty_name = "normal"
 
 //// IMMUTABLE CONFIG
 
