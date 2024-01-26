@@ -27,6 +27,7 @@
     {"name":"spr_weed_slow_drawn","order":15,"path":"sprites/spr_weed_slow_drawn/spr_weed_slow_drawn.yy",},
     {"name":"spr_bag_increase","order":13,"path":"sprites/spr_bag_increase/spr_bag_increase.yy",},
     {"name":"rm_help","order":1,"path":"rooms/rm_help/rm_help.yy",},
+    {"name":"obj_button_help","order":1,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"spr_background_menu","order":1,"path":"sprites/spr_background_menu/spr_background_menu.yy",},
     {"name":"obj_help_slow_weed","order":6,"path":"objects/obj_help_slow_weed/obj_help_slow_weed.yy",},
   ],

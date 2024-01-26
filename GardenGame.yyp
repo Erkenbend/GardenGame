@@ -237,6 +237,7 @@
     {"id":{"name":"obj_card_slot_2","path":"objects/obj_card_slot_2/obj_card_slot_2.yy",},},
     {"id":{"name":"obj_intro_dialog_4","path":"objects/obj_intro_dialog_4/obj_intro_dialog_4.yy",},},
     {"id":{"name":"obj_info_parent","path":"objects/obj_info_parent/obj_info_parent.yy",},},
+    {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
     {"id":{"name":"spr_landlord_angry","path":"sprites/spr_landlord_angry/spr_landlord_angry.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
     {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
