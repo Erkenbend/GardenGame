@@ -6,18 +6,19 @@ if !alive {
 }
 
 var _insanity = obj_player.modifiers.insanity_multiplier * instance_number(obj_weed) / global.weed_growth.max_instance_count
-show_debug_message(_insanity)
 
 // update sprite
 if _insanity >= 1 {
 	alive = false
 	alarm[0] = global.ui.game_over_wait_duration
-} else if _insanity > 0.8 {
+} else if _insanity > 0.75 {
 	sprite_index = spr_landlord_very_angry
 } else if _insanity > 0.5 {
-	sprite_index = spr_landlord_mid_angry
+	sprite_index = spr_landlord_angry
+} else if _insanity > 0.3 {
+	sprite_index = spr_landlord_normal
 } else {
-	sprite_index = spr_landlord_calm
+	sprite_index = spr_landlord_happy
 }
 
 // compute movement

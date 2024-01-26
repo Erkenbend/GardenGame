@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_landlord_dead",
+  "name": "spr_landlord_happy",
   "bbox_bottom": 126,
-  "bbox_left": 16,
-  "bbox_right": 110,
+  "bbox_left": 19,
+  "bbox_right": 106,
   "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"706c6315-b701-499c-b0a3-7ed0d997a4a9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c811ae2a-ed66-4db9-8019-52d933ef8146",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"43b6b275-584c-48f0-a3da-60195fe1c9ac","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"79defeb6-dd3b-4d63-a08d-a674f78c7963","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_landlord_dead",
+    "name": "spr_landlord_happy",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"706c6315-b701-499c-b0a3-7ed0d997a4a9","path":"sprites/spr_landlord_dead/spr_landlord_dead.yy",},},},"Disabled":false,"id":"0b7f1c92-e394-4535-b8d5-9099274e2cbc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c811ae2a-ed66-4db9-8019-52d933ef8146","path":"sprites/spr_landlord_happy/spr_landlord_happy.yy",},},},"Disabled":false,"id":"075cf5b9-b2c0-4a92-840b-7fb250265fcf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
