@@ -11,6 +11,9 @@ mirrored = false
 // 1 for horiz, 2 for vert
 last_pressed_dir = 1
 
+// temporary multipliers
+weed_spread_probability_multiplier = 1
+
 self.depth = -200
 
 _register_last_direction = function () {

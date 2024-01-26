@@ -13,8 +13,6 @@ global.score = 0
 global.high_score = 0
 global.bag_capacity_multiplier = 1
 global.bag_content = 0
-global.player_move_direction_x = 0
-global.player_move_direction_y = 0
 
 //// IMMUTABLE CONFIG
 
@@ -75,8 +73,12 @@ global.cards_in_deck = [
 obj_player_spray]
 */
 
+global.powerups = {
+	click_cooldown: 120,
+	temp_effect_duration: 240
+}
+
 global.cards_in_deck_count = array_length(global.cards_in_deck)
-global.click_cooldown = 120
 
 // SFX
 

@@ -8,11 +8,9 @@ if 0.25 < _insanity && _insanity < 0.5 {
 } 
 if 0.5 < _insanity && _insanity < 0.75{
 	sprite_index = spr_health_bar_50
-
 } 
 if 0.75 < _insanity {
 	sprite_index = spr_health_bar_75
-	
 } 
 if _insanity > 0.75 {
 	sprite_index = spr_health_bar_100	
