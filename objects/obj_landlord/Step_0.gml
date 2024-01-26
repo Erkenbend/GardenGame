@@ -1,4 +1,4 @@
-/// @description Update health bar and possibly end game
+/// @description Update sprite and speed, possibly end game
 
 var _insanity = instance_number(obj_weed) / global.weed_growth.max_instance_count
 
