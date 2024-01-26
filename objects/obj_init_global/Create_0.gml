@@ -24,7 +24,7 @@ global.high_score = {
 		rm_level_1 : 0
 	}
 }
-	
+
 global.bag_content = 0
 global.current_level = rm_level_1
 global.difficulty_multiplier = 1
@@ -71,6 +71,7 @@ global.player_movement = {
 	move_speed_temporary_multiplier: 1.5,
 }
 
+
 global.cards_in_deck = [
 	obj_move_speed_temporary,
 	obj_move_speed_permanent,
@@ -79,14 +80,13 @@ global.cards_in_deck = [
 	obj_bag_increase,
 	obj_player_aoe,
 	obj_player_spray,
-	obj_insanity_slow
+	obj_insanity_slow_temporary
 ]
-
 /*
 global.cards_in_deck = [
-obj_insanity_slow]
-*/
+obj_insanity_slow_temporary]
 
+*/
 global.powerups = {
 	click_cooldown: 120,
 	recently_clicked_duration: 180,
