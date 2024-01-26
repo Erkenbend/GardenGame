@@ -33,7 +33,7 @@ _register_last_direction = function () {
 _get_standing_sprite = function() {
 	switch sprite_index {
 		case spr_player_walking_down:
-		case spr_player_disco:
+		case spr_player_cutting:
 			return spr_player_standing_down
 		case spr_player_walking_right:
 			return spr_player_standing_right

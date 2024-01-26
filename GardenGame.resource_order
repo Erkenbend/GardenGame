@@ -62,7 +62,6 @@
     {"name":"obj_info_bag_full","order":2,"path":"objects/obj_info_bag_full/obj_info_bag_full.yy",},
     {"name":"obj_button_end","order":3,"path":"objects/obj_button_end/obj_button_end.yy",},
     {"name":"rm_end_screen","order":5,"path":"rooms/rm_end_screen/rm_end_screen.yy",},
-    {"name":"spr_player_disco","order":3,"path":"sprites/spr_player_disco/spr_player_disco.yy",},
     {"name":"snd_throw_compost_5","order":4,"path":"sounds/snd_throw_compost_5/snd_throw_compost_5.yy",},
     {"name":"spr_grass_dark","order":7,"path":"sprites/spr_grass_dark/spr_grass_dark.yy",},
     {"name":"obj_player_spray","order":7,"path":"objects/obj_player_spray/obj_player_spray.yy",},

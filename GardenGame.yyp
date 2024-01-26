@@ -82,7 +82,6 @@
     {"id":{"name":"obj_info_bag_full","path":"objects/obj_info_bag_full/obj_info_bag_full.yy",},},
     {"id":{"name":"obj_button_end","path":"objects/obj_button_end/obj_button_end.yy",},},
     {"id":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
-    {"id":{"name":"spr_player_disco","path":"sprites/spr_player_disco/spr_player_disco.yy",},},
     {"id":{"name":"snd_throw_compost_5","path":"sounds/snd_throw_compost_5/snd_throw_compost_5.yy",},},
     {"id":{"name":"spr_grass_dark","path":"sprites/spr_grass_dark/spr_grass_dark.yy",},},
     {"id":{"name":"obj_player_spray","path":"objects/obj_player_spray/obj_player_spray.yy",},},
