@@ -1,7 +1,9 @@
 /// @description  Show bag content
 
+draw_set_font(fnt_info)
+
 draw_text(
-	x,
+	x + 5,
 	y,
 	string_concat(
 		"Bag: ",
@@ -10,3 +12,5 @@ draw_text(
 		global.bag_capacity + obj_player.modifiers.extra_bag_capacity
 	)
 )
+
+draw_set_font(fnt_default)
