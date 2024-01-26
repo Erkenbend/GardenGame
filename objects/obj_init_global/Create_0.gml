@@ -104,7 +104,8 @@ global.sfx = {
 
 global.music = {
 	music_gain: 0.5,
-	songs: [snd_garden_theme_2]
+	songs: [snd_garden_theme_2],
+	sound_effects_gain: 1
 }
 
 

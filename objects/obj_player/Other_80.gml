@@ -9,5 +9,5 @@ _was_stopped = async_load[? "was_stopped"]
 
 if(_sound_id == ref_snd_bag)
 {
-	audio_play_sound(global.sfx.throw_compost[irandom(4)], 0, false, 1)
+	audio_play_sound(global.sfx.throw_compost[irandom(4)], 0, false, 1 * global.music.sound_effects_gain)
 }
