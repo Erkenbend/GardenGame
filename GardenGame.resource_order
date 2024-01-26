@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"help","order":1,"path":"folders/Objects/UI/help.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"spr_player_aoe","order":1,"path":"sprites/spr_player_aoe/spr_player_aoe.yy",},
     {"name":"spr_player_spray_drawn","order":2,"path":"sprites/spr_player_spray_drawn/spr_player_spray_drawn.yy",},
@@ -19,5 +21,13 @@
     {"name":"spr_weed_slow_drawn","order":15,"path":"sprites/spr_weed_slow_drawn/spr_weed_slow_drawn.yy",},
     {"name":"spr_bag_increase","order":13,"path":"sprites/spr_bag_increase/spr_bag_increase.yy",},
     {"name":"spr_background_menu","order":1,"path":"sprites/spr_background_menu/spr_background_menu.yy",},
+    {"name":"obj_help_aoe","order":4,"path":"objects/obj_help_aoe/obj_help_aoe.yy",},
+    {"name":"obj_help_move_speed_temporary","order":3,"path":"objects/obj_help_move_speed_temporary/obj_help_move_speed_temporary.yy",},
+    {"name":"obj_help_insanity_slow","order":1,"path":"objects/obj_help_insanity_slow/obj_help_insanity_slow.yy",},
+    {"name":"obj_help_controls","order":7,"path":"objects/obj_help_controls/obj_help_controls.yy",},
+    {"name":"obj_help_slow_immunity","order":5,"path":"objects/obj_help_slow_immunity/obj_help_slow_immunity.yy",},
+    {"name":"obj_help_move_speed_permanent","order":2,"path":"objects/obj_help_move_speed_permanent/obj_help_move_speed_permanent.yy",},
+    {"name":"rm_help","order":1,"path":"rooms/rm_help/rm_help.yy",},
+    {"name":"obj_help_slow_weed","order":6,"path":"objects/obj_help_slow_weed/obj_help_slow_weed.yy",},
   ],
 }
