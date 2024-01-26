@@ -144,6 +144,7 @@
     {"id":{"name":"obj_scoreboard_title","path":"objects/obj_scoreboard_title/obj_scoreboard_title.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_info_points_earned","path":"objects/obj_info_points_earned/obj_info_points_earned.yy",},},
+    {"id":{"name":"snd_ambiente","path":"sounds/snd_ambiente/snd_ambiente.yy",},},
     {"id":{"name":"snd_scissor05_2","path":"sounds/snd_scissor05_2/snd_scissor05_2.yy",},},
     {"id":{"name":"spr_weed_slow","path":"sprites/spr_weed_slow/spr_weed_slow.yy",},},
     {"id":{"name":"rm_scoreboard","path":"rooms/rm_scoreboard/rm_scoreboard.yy",},},

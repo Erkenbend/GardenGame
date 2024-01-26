@@ -114,6 +114,7 @@
     {"name":"obj_insanity_slow","order":8,"path":"objects/obj_insanity_slow/obj_insanity_slow.yy",},
     {"name":"obj_scoreboard_title","order":7,"path":"objects/obj_scoreboard_title/obj_scoreboard_title.yy",},
     {"name":"obj_info_points_earned","order":3,"path":"objects/obj_info_points_earned/obj_info_points_earned.yy",},
+    {"name":"snd_ambiente","order":1,"path":"sounds/snd_ambiente/snd_ambiente.yy",},
     {"name":"snd_scissor05_2","order":19,"path":"sounds/snd_scissor05_2/snd_scissor05_2.yy",},
     {"name":"spr_weed_slow","order":4,"path":"sprites/spr_weed_slow/spr_weed_slow.yy",},
     {"name":"rm_scoreboard","order":8,"path":"rooms/rm_scoreboard/rm_scoreboard.yy",},

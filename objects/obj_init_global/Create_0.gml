@@ -90,8 +90,11 @@ global.sfx = {
 }
 
 global.music = {
-	music_gain: 0.5,
-	songs: [snd_garden_theme_2]
+	music_gain: 0.4,
+	music: [snd_garden_theme_2],
+	ambiente_gain: 0.2,
+	ambiente: [snd_ambiente]
+	
 }
 
 
