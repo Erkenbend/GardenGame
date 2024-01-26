@@ -132,4 +132,6 @@ global.translation = {
 	}
 }
 
+draw_set_font(fnt_default)
+
 alarm[0] = 1  // add fake loading time if needed
