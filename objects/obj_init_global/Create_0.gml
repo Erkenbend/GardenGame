@@ -89,6 +89,11 @@ global.sfx = {
 	throw_compost: [snd_throw_compost_1, snd_throw_compost_2, snd_throw_compost_3, snd_throw_compost_4, snd_throw_compost_5]
 }
 
+global.music = {
+	music_gain: 0.5,
+	songs: [snd_garden_theme_2]
+}
+
 
 global.translation = {
 	rooms : {

@@ -5,6 +5,8 @@
 .install/
 .cache/
 
+*.aup3
+
 ### Web ###
 *.asp
 *.cer

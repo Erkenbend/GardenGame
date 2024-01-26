@@ -30,6 +30,8 @@
     {"name":"player","order":13,"path":"folders/Sprites/player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"music","order":40,"path":"folders/Sounds/music.yy",},
+    {"name":"Audio","order":8,"path":"folders/Objects/Audio.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_move_speed_permanent","order":1,"path":"sprites/spr_move_speed_permanent/spr_move_speed_permanent.yy",},
