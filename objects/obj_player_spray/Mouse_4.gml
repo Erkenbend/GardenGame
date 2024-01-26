@@ -53,7 +53,11 @@ var _instances = [_instance1, _instance2, _instance3, _instance4, _instance5]
 
 // destroy weed instances around player model
 for (var _i = 0; _i < array_length(_instances); _i++) {	
-	instance_destroy(_instances[_i])
+	var _inst = _instances[_i]
+	if _inst == undefined {
+		continue
+	}
+	instance_destroy(_inst)
 }
 
 // Use this to debug Spray collisions if necessary
