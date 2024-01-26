@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "cards",
+    "path": "folders/Objects/Deckbuilding/cards.yy",
   },
   "parentObjectId": null,
   "persistent": false,
