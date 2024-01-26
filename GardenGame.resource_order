@@ -15,6 +15,7 @@
     {"name":"UI","order":4,"path":"folders/Objects/UI.yy",},
     {"name":"menu","order":5,"path":"folders/Objects/UI/menu.yy",},
     {"name":"level","order":6,"path":"folders/Objects/UI/menu/level.yy",},
+    {"name":"settings","order":11,"path":"folders/Objects/UI/menu/settings.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -32,7 +33,6 @@
     {"name":"player","order":13,"path":"folders/Sprites/player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"settings","order":11,"path":"folders/Objects/UI/menu/settings.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_settings","order":9,"path":"rooms/rm_settings/rm_settings.yy",},
