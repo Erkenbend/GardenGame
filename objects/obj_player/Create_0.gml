@@ -1,8 +1,3 @@
-// variables for movement
-move_dir = 0
-move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
-move_started = false
-
 //snd refs for sfx play control
 ref_snd_bag = undefined
 
@@ -14,8 +9,16 @@ last_pressed_dir = 1
 // temporary modifiers
 modifiers = {
 	weed_spread_probability_multiplier: 1,
-	extra_bag_capacity: 0
+	extra_bag_capacity: 0,
+	debris_immunity: false,
+	move_speed_permanent_multiplier: 1,
+	move_speed_temporary_multiplier: 1
 }
+
+// variables for movement
+move_dir = 0
+move_speed = global.player_movement.move_speed_initial * modifiers.move_speed_permanent_multiplier * modifiers.move_speed_temporary_multiplier
+move_started = false
 
 self.depth = -200
 

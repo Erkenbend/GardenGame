@@ -49,12 +49,9 @@ global.weed_growth = {
 
 global.player_movement = {
 	move_speed_initial: 8,
-	debris_move_speed_modifier: 0.4,
-	debris_move_speed_modifier_initial: 0.4,
-	move_speed_multiplier: 1,
-	move_speed_temporary_multiplier: 1.5
+	debris_move_speed_multiplier: 0.4,
+	move_speed_temporary_multiplier: 1.5,
 }
-
 
 global.cards_in_deck = [
 	obj_move_speed_temporary,
@@ -65,7 +62,6 @@ global.cards_in_deck = [
 	obj_player_aoe,
 	obj_player_spray
 ]
-
 
 /*
 global.cards_in_deck = [

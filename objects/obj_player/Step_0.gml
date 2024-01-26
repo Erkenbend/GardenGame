@@ -29,16 +29,17 @@ if (_up_key xor _down_key) {
 }
 
 // reduce movement speed when on debris + change walk audio
-move_speed = global.player_movement.move_speed_initial * global.player_movement.move_speed_multiplier
+move_speed =  global.player_movement.move_speed_initial * modifiers.move_speed_permanent_multiplier * modifiers.move_speed_temporary_multiplier
 if (place_meeting(x, y, obj_debris)) {
-	move_speed *= global.player_movement.debris_move_speed_modifier
+	if (!modifiers.debris_immunity) {
+		move_speed *= global.player_movement.debris_move_speed_multiplier
+	}
 	audio_stop_sound(snd_walk_grass)
 	_walk_sound = snd_walk_dirt
 } else {
 	audio_stop_sound(snd_walk_dirt)
 	_walk_sound = snd_walk_grass
 }
-
 
 if (move_started) {
 	// when between tiles: finish movement in the given direction before accepting new inputs
