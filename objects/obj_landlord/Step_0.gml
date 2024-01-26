@@ -5,14 +5,9 @@ if !alive {
 	exit
 }
 
-
-
 var _insanity = obj_player.modifiers.insanity_multiplier * instance_number(obj_weed) / global.weed_growth.max_instance_count
 show_debug_message(_insanity)
 
-show_debug_message(_insanity)
-
-show_debug_message(_insanity)
 // update sprite
 if _insanity >= 1 {
 	alive = false
