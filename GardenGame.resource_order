@@ -135,7 +135,6 @@
     {"name":"snd_scissor07_3","order":24,"path":"sounds/snd_scissor07_3/snd_scissor07_3.yy",},
     {"name":"spr_health_bar_50","order":2,"path":"sprites/spr_health_bar_50/spr_health_bar_50.yy",},
     {"name":"obj_grass_dark","order":1,"path":"objects/obj_grass_dark/obj_grass_dark.yy",},
-    {"name":"Untitled_Artwork","order":27,"path":"sprites/Untitled_Artwork/Untitled_Artwork.yy",},
     {"name":"spr_player_standing_down","order":4,"path":"sprites/spr_player_standing_down/spr_player_standing_down.yy",},
     {"name":"spr_button","order":14,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_weed_big","order":10,"path":"sprites/spr_weed_big/spr_weed_big.yy",},
