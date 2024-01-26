@@ -11,9 +11,6 @@ show_debug_message(_insanity)
 // update sprite
 if _insanity >= 1 {
 	alive = false
-	audio_stop_sound(snd_walk_grass)
-	audio_stop_sound(snd_walk_dirt)
-	audio_stop_sound(snd_walk_gravel)
 	alarm[0] = global.ui.game_over_wait_duration
 } else if _insanity > 0.8 {
 	sprite_index = spr_landlord_very_angry
