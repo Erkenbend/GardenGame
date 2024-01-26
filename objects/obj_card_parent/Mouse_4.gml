@@ -2,7 +2,5 @@
 
 recently_clicked = true
 
-alarm[6] = click_cooldown
-
-
-
+// TODO: what does this do?
+alarm[6] = global.click_cooldown

@@ -76,6 +76,7 @@ obj_player_spray]
 */
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
+global.click_cooldown = 120
 
 // SFX
 

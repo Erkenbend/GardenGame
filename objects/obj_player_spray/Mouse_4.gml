@@ -10,46 +10,46 @@ var _left_key = keyboard_check(vk_left) || keyboard_check(ord("A"))
 var _up_key = keyboard_check(vk_up) || keyboard_check(ord("W"))
 var _down_key = keyboard_check(vk_down) || keyboard_check(ord("S"))
 
-
+var _instance1 = undefined
+var _instance2 = undefined
+var _instance3 = undefined
+var _instance4 = undefined
+var _instance5 = undefined
 
 // return instances of weed objects in line in front of player direction
-if (_lastkey == vk_up) {
-	var _instance1 = instance_place(_player_x + 48, _player_y - 32, obj_weed)
-	var _instance2 = instance_place(_player_x + 48, _player_y - 64, obj_weed)
-	var _instance3 = instance_place(_player_x + 48, _player_y - 96, obj_weed)
-	var _instance4 = instance_place(_player_x + 48, _player_y - 128, obj_weed)
-	var _instance5 = instance_place(_player_x + 48, _player_y - 160, obj_weed)
+// TODO refactor for better flexibility
+switch _lastkey {
+	case vk_up:
+		_instance1 = instance_place(_player_x + 48, _player_y - 32, obj_weed)
+		_instance2 = instance_place(_player_x + 48, _player_y - 64, obj_weed)
+		_instance3 = instance_place(_player_x + 48, _player_y - 96, obj_weed)
+		_instance4 = instance_place(_player_x + 48, _player_y - 128, obj_weed)
+		_instance5 = instance_place(_player_x + 48, _player_y - 160, obj_weed)
+		break
+	case vk_right:
+		_instance1 = instance_place(_player_x + 96, _player_y + 32, obj_weed)
+		_instance2 = instance_place(_player_x + 128, _player_y + 32, obj_weed)
+		_instance3 = instance_place(_player_x + 160, _player_y + 32, obj_weed)
+		_instance4 = instance_place(_player_x + 192, _player_y + 32, obj_weed)
+		_instance5 = instance_place(_player_x + 224, _player_y + 32, obj_weed)
+		break
+	case vk_down:
+		_instance1 = instance_place(_player_x + 48, _player_y + 96, obj_weed)
+		_instance2 = instance_place(_player_x + 48, _player_y + 128, obj_weed)
+		_instance3 = instance_place(_player_x + 48, _player_y + 160, obj_weed)
+		_instance4 = instance_place(_player_x + 48, _player_y + 192, obj_weed)
+		_instance5 = instance_place(_player_x + 48, _player_y + 224, obj_weed)
+		break
+	case vk_left:
+		_instance1 = instance_place(_player_x, _player_y + 32, obj_weed)
+		_instance2 = instance_place(_player_x - 32, _player_y + 32, obj_weed)
+		_instance3 = instance_place(_player_x - 64, _player_y + 32, obj_weed)
+		_instance4 = instance_place(_player_x - 96, _player_y + 32, obj_weed)
+		_instance5 = instance_place(_player_x - 128, _player_y + 32, obj_weed)
+		break
 }
-
-if (_lastkey == vk_right) {
-	var _instance1 = instance_place(_player_x + 96, _player_y + 32, obj_weed)
-	var _instance2 = instance_place(_player_x + 128, _player_y + 32, obj_weed)
-	var _instance3 = instance_place(_player_x + 160, _player_y + 32, obj_weed)
-	var _instance4 = instance_place(_player_x + 192, _player_y + 32, obj_weed)
-	var _instance5 = instance_place(_player_x + 224, _player_y + 32, obj_weed)
-}
-
-if (_lastkey == vk_down) {
-	var _instance1 = instance_place(_player_x + 48, _player_y + 96, obj_weed)
-	var _instance2 = instance_place(_player_x + 48, _player_y + 128, obj_weed)
-	var _instance3 = instance_place(_player_x + 48, _player_y + 160, obj_weed)
-	var _instance4 = instance_place(_player_x + 48, _player_y + 192, obj_weed)
-	var _instance5 = instance_place(_player_x + 48, _player_y + 224, obj_weed)
-}
-
-if (_lastkey == vk_left) {
-	var _instance1 = instance_place(_player_x, _player_y + 32, obj_weed)
-	var _instance2 = instance_place(_player_x - 32, _player_y + 32, obj_weed)
-	var _instance3 = instance_place(_player_x - 64, _player_y + 32, obj_weed)
-	var _instance4 = instance_place(_player_x - 96, _player_y + 32, obj_weed)
-	var _instance5 = instance_place(_player_x - 128, _player_y + 32, obj_weed)
-}
-
-
 
 var _instances = [_instance1, _instance2, _instance3, _instance4, _instance5]
-
-
 
 // destroy weed instances around player model
 for (var _i = 0; _i < array_length(_instances); _i++) {	
@@ -57,7 +57,6 @@ for (var _i = 0; _i < array_length(_instances); _i++) {
 }
 
 // Use this to debug Spray collisions if necessary
-
 
 if (_lastkey == vk_up) {
 	effect_create_layer("Instances", ef_star, _player_x + 48, _player_y - 32, 1, c_green)
