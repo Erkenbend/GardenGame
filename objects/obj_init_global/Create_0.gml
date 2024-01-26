@@ -21,7 +21,8 @@ global.bag_capacity = 2
 global.cut_down_duration = 3
 
 global.ui = {
-	info_text_duration: 60
+	info_text_duration: 60,
+	game_over_wait_duration: 120
 }
 
 global.grid_properties = {
@@ -81,6 +82,14 @@ global.cards_in_deck_count = array_length(global.cards_in_deck)
 global.sfx = {
 	bag_shake: [snd_shake_bag_1, snd_shake_bag_2, snd_shake_bag_3],
 	throw_compost: [snd_throw_compost_1, snd_throw_compost_2, snd_throw_compost_3, snd_throw_compost_4, snd_throw_compost_5]
+}
+
+
+global.translation = {
+	rooms : {
+		rm_level_0 : "Level 1",
+		rm_level_1 : "Level 2"
+	}
 }
 
 alarm[0] = 1  // add fake loading time if needed
