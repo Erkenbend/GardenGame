@@ -147,6 +147,7 @@ if (x > _x_before) {
 	
 } else {
 	sprite_index = _get_standing_sprite()
+	audio_stop_sound(snd_scissor07_3)
 }
 
 // play or stop walk sound effect
@@ -157,6 +158,10 @@ if (x != _x_before || y != _y_before) {
 	}
 } else {
 	audio_stop_sound(_walk_sound)
+}
+
+if sprite_index != spr_player_cutting {
+	audio_stop_sound(snd_scissor07_3)	
 }
 
 if place_meeting(x, y, obj_weed) {
