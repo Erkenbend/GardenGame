@@ -30,6 +30,8 @@ for (var _i = 0; _i < array_length(_instances); _i++) {
 
 effect_create_layer("Instances", ef_explosion, _player_x + 48, _player_y + 48, 1, c_green)
 
+obj_deck.cards_clickable = false
+
 /*
 // Test AoE radius with these creates
 instance_create_depth(_player_x, _player_y, -100, obj_near_compost)

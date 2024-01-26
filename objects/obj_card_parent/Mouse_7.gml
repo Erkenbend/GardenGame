@@ -5,7 +5,6 @@ if (obj_deck.cards_clickable) {
 	alarm[0] = global.powerups.recently_clicked_duration
 
 	obj_deck.alarm[0] = global.powerups.click_cooldown * global.difficulty_multiplier
-	obj_deck.cards_clickable = false
 
 	// destroy all cards
 	instance_destroy(obj_card_parent)

@@ -100,6 +100,7 @@ if (_lastkey == vk_left) {
 	effect_create_layer("Instances", ef_star, _player_x - 128, _player_y + 32, 1, c_green)
 }
 
+obj_deck.cards_clickable = false
 
 /*
 
