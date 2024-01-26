@@ -12,6 +12,7 @@ randomize()
 global.score = 0
 global.high_score = 0
 global.bag_content = 0
+global.current_level = rm_level2
 
 //// IMMUTABLE CONFIG
 

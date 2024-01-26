@@ -431,6 +431,7 @@
     {"name":"inst_17BBE2AB","path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"inst_36997D37","path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"inst_36146E8A_1","path":"rooms/rm_level2/rm_level2.yy",},
+    {"name":"inst_36146E8A_1","path":"rooms/rm_level2/rm_level2.yy",},
   ],
   "isDnd": false,
   "layers": [
