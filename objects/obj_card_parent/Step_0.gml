@@ -10,11 +10,9 @@ if _shortcut_slot_1_pressed && self.x == 704 {
 }
 
 if _shortcut_slot_2_pressed && self.x == 896 {
-	show_debug_message("Im a W")
 }
 
 if _shortcut_slot_3_pressed && self.x == 1088 {
-	show_debug_message("Im a E")
 }
 
 

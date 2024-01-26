@@ -17,4 +17,4 @@ while (true) {
 	}
 }
 
-alarm[0] = obj_weed.get_variable_delay(global.weed_growth.delay_spawn_small)
+alarm[0] = obj_weed.get_variable_delay(global.weed_growth.delay_spawn_small) / 3

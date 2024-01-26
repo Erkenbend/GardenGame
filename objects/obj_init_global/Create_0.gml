@@ -72,7 +72,7 @@ global.cards_in_deck = [
 
 /*
 global.cards_in_deck = [
-obj_player_spray]
+obj_player_aoe]
 */
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)

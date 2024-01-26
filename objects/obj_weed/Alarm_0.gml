@@ -19,7 +19,15 @@ switch sprite_index {
 		y += global.grid_properties.box_size
 		
 		// short name
-		var _spawn_prob =  global.weed_growth.spread_spawn_probability
+		
+		var _spawn_prob
+		if (variable_global_exists("difficulty_multiplier") == true) {
+			_spawn_prob = global.weed_growth.spread_spawn_probability * global.difficulty_multiplier 
+		} else {
+			_spawn_prob  = global.weed_growth.spread_spawn_probability
+		}
+		
+		//var _spawn_prob =  global.weed_growth.spread_spawn_probability
 		
 		if (random(1) < _spawn_prob) {
 			_spawn_new_instance(x, y - global.grid_properties.box_size)
