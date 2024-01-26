@@ -1,3 +1,3 @@
-/// @description 
+/// @description Reset weed spread probability
 
-global.weed_growth.spread_spawn_probability = spread_spawn_probability_initial
+obj_player.modifiers.weed_spread_probability_multiplier = 1

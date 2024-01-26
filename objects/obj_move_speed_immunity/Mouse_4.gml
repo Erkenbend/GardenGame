@@ -1,8 +1,5 @@
 /// @description 
 
-global.player_movement.debris_move_speed_modifier = 1
+obj_player.modifiers.debris_immunity = true
 
-obj_deck.alarm[3] = 240
-
-
-
+obj_deck.alarm[3] = global.powerups.temp_effect_duration

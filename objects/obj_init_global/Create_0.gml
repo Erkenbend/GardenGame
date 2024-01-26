@@ -11,10 +11,8 @@ randomize()
 
 global.score = 0
 global.high_score = 0
-global.bag_capacity_multiplier = 1
 global.bag_content = 0
-global.player_move_direction_x = 0
-global.player_move_direction_y = 0
+global.current_level = rm_level_1
 
 //// IMMUTABLE CONFIG
 
@@ -52,12 +50,9 @@ global.weed_growth = {
 
 global.player_movement = {
 	move_speed_initial: 8,
-	debris_move_speed_modifier: 0.4,
-	debris_move_speed_modifier_initial: 0.4,
-	move_speed_multiplier: 1,
-	move_speed_temporary_multiplier: 1.5
+	debris_move_speed_multiplier: 0.4,
+	move_speed_temporary_multiplier: 1.5,
 }
-
 
 global.cards_in_deck = [
 	obj_move_speed_temporary,
@@ -69,11 +64,15 @@ global.cards_in_deck = [
 	obj_player_spray
 ]
 
-
 /*
 global.cards_in_deck = [
 obj_player_aoe]
 */
+
+global.powerups = {
+	click_cooldown: 120,
+	temp_effect_duration: 240
+}
 
 global.cards_in_deck_count = array_length(global.cards_in_deck)
 

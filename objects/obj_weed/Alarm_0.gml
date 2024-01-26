@@ -1,7 +1,7 @@
 /// @description Grow to next stage if possible
 if place_meeting(x,y,obj_player) {
 	alarm[0] = 30
-	exit	
+	exit
 }
 switch sprite_index {
 	case spr_weed_small:
@@ -17,18 +17,18 @@ switch sprite_index {
 		// compensate for changing sprite size
 		sprite_index = spr_weed_small
 		y += global.grid_properties.box_size
-		
+
 		// short name
-		
+
 		var _spawn_prob
 		if (variable_global_exists("difficulty_multiplier") == true) {
-			_spawn_prob = global.weed_growth.spread_spawn_probability * global.difficulty_multiplier 
+			_spawn_prob = global.weed_growth.spread_spawn_probability * global.difficulty_multiplier * obj_player.modifiers.weed_spread_probability_multiplier
 		} else {
-			_spawn_prob  = global.weed_growth.spread_spawn_probability
+			_spawn_prob  = global.weed_growth.spread_spawn_probability * obj_player.modifiers.weed_spread_probability_multiplier
 		}
-		
+
 		//var _spawn_prob =  global.weed_growth.spread_spawn_probability
-		
+
 		if (random(1) < _spawn_prob) {
 			_spawn_new_instance(x, y - global.grid_properties.box_size)
 		}

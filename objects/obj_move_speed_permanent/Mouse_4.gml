@@ -1,3 +1,3 @@
 /// @description 
 
-global.player_movement.move_speed_multiplier *= 1.1
+obj_player.modifiers.move_speed_permanent_multiplier = 1.1

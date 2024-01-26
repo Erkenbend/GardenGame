@@ -4,7 +4,7 @@ event_inherited()
 depth = -100
 
 _cutting_state = {
-  _is_getting_cut : false,	
+  _is_getting_cut : false,
 }
 
 get_variable_delay = function (_base_delay) {
