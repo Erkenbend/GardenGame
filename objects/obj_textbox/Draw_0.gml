@@ -1,9 +1,9 @@
-/// @description Print title and co
+/// @description Draws text
 
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
-draw_text(x, y, "Levels")
+draw_text(x, y, text)
 
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)

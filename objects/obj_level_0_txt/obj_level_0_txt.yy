@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_level_1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_level_0_txt",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_level_parent","path":"objects/obj_level_parent/obj_level_parent.yy",},"propertyId":{"name":"level_id","path":"objects/obj_level_parent/obj_level_parent.yy",},"value":"rm_level_1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Level 1",},
   ],
   "parent": {
     "name": "level",
     "path": "folders/Objects/UI/menu/level.yy",
   },
   "parentObjectId": {
-    "name": "obj_level_parent",
-    "path": "objects/obj_level_parent/obj_level_parent.yy",
+    "name": "obj_textbox",
+    "path": "objects/obj_textbox/obj_textbox.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_level_1",
-    "path": "sprites/spr_level_1/spr_level_1.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

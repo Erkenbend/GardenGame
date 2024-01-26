@@ -2,16 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_level_header",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Levels",},
+  ],
   "parent": {
     "name": "level",
     "path": "folders/Objects/UI/menu/level.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_textbox",
+    "path": "objects/obj_textbox/obj_textbox.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

@@ -83,4 +83,12 @@ global.sfx = {
 	throw_compost: [snd_throw_compost_1, snd_throw_compost_2, snd_throw_compost_3, snd_throw_compost_4, snd_throw_compost_5]
 }
 
+
+global.translation = {
+	rooms : {
+		rm_level_0 : "Level 1",
+		rm_level_1 : "Level 2"
+	}
+}
+
 alarm[0] = 1  // add fake loading time if needed
