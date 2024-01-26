@@ -34,3 +34,9 @@ if _shortcut_slot_2_released && self.x == 896 {
 if _shortcut_slot_3_released && self.x == 1088 {
 	event_perform(ev_mouse, ev_left_release)
 }
+
+if  !obj_deck.cards_clickable {
+	image_alpha = 0.35
+} else {
+	image_alpha = 1	
+}
