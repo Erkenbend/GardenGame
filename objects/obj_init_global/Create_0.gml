@@ -26,7 +26,7 @@ global.high_score = {
 }
 
 global.bag_content = 0
-global.current_level = rm_level_1
+global.current_level = rm_level_0
 global.difficulty_multiplier = 1
 global.difficulty_name = "normal"
 global.game_paused = false
