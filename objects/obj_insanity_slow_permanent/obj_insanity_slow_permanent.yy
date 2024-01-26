@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_insanity_slow",
-    "path": "sprites/spr_insanity_slow/spr_insanity_slow.yy",
+    "name": "spr_insanity_slow_drawn",
+    "path": "sprites/spr_insanity_slow_drawn/spr_insanity_slow_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,

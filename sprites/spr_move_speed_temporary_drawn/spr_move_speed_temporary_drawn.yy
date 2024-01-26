@@ -4,7 +4,7 @@
   "name": "spr_move_speed_temporary_drawn",
   "bbox_bottom": 127,
   "bbox_left": 0,
-  "bbox_right": 84,
+  "bbox_right": 95,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f97b4090-da14-4d66-83bc-6f203c9aa5b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54c70caa-31ed-4553-8de2-19c5005322cb",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"222aadea-71aa-47c3-a3ae-835b714f6123","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13e560f4-ad7b-4ed7-93c0-e9cb82e6158b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f97b4090-da14-4d66-83bc-6f203c9aa5b2","path":"sprites/spr_move_speed_temporary_drawn/spr_move_speed_temporary_drawn.yy",},},},"Disabled":false,"id":"d1c274cd-d30c-4cb5-a680-bbbc41edd3ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54c70caa-31ed-4553-8de2-19c5005322cb","path":"sprites/spr_move_speed_temporary_drawn/spr_move_speed_temporary_drawn.yy",},},},"Disabled":false,"id":"d3126a7a-103f-43f3-a80b-e7132fc7f102","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 85,
+  "width": 96,
 }

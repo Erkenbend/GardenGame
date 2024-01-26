@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_weed_slow",
-    "path": "sprites/spr_weed_slow/spr_weed_slow.yy",
+    "name": "spr_weed_slow_drawn",
+    "path": "sprites/spr_weed_slow_drawn/spr_weed_slow_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
