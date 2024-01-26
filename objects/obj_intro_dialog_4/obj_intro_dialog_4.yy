@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_intro_dialog_2",
+  "name": "obj_intro_dialog_4",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"I have organized a little help.\\nWhatever, do not give me up, do not let me down.",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_intro_dialog_parent","path":"objects/obj_intro_dialog_parent/obj_intro_dialog_parent.yy",},"propertyId":{"name":"dialog_nb","path":"objects/obj_intro_dialog_parent/obj_intro_dialog_parent.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"propertyId":{"name":"text","path":"objects/obj_textbox/obj_textbox.yy",},"value":"Don't forget to throw the weed onto the compost,\\nelse it does not count!",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_intro_dialog_parent","path":"objects/obj_intro_dialog_parent/obj_intro_dialog_parent.yy",},"propertyId":{"name":"dialog_nb","path":"objects/obj_intro_dialog_parent/obj_intro_dialog_parent.yy",},"value":"4",},
   ],
   "parent": {
     "name": "intro",

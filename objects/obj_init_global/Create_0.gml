@@ -12,16 +12,19 @@ randomize()
 global.score = 0
 global.high_score = {
 	easy: {
-		rm_level_0 : 0,
-		rm_level_1 : 0
+		rm_level_0: 0,
+		rm_level_1: 0,
+		rm_level_2: 0
 	},
 	normal: {
-		rm_level_0 : 0,
-		rm_level_1 : 0
+		rm_level_0: 0,
+		rm_level_1: 0,
+		rm_level_2: 0
 	},
 	hard: {
-		rm_level_0 : 0,
-		rm_level_1 : 0
+		rm_level_0: 0,
+		rm_level_1: 0,
+		rm_level_2: 0
 	}
 }
 
@@ -121,8 +124,9 @@ global.dialog = {
 
 global.translation = {
 	rooms : {
-		rm_level_0 : "Level 1",
-		rm_level_1 : "Level 2"
+		rm_level_0: "Level 1",
+		rm_level_1: "Level 2",
+		rm_level_2: "Level 3"
 	}
 }
 
