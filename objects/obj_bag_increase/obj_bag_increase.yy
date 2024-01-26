@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bag_increase_2",
-    "path": "sprites/spr_bag_increase_2/spr_bag_increase_2.yy",
+    "name": "spr_bag_increase_drawn",
+    "path": "sprites/spr_bag_increase_drawn/spr_bag_increase_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,

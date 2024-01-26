@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slow_immunity_2",
-    "path": "sprites/spr_slow_immunity_2/spr_slow_immunity_2.yy",
+    "name": "spr_weed_slow",
+    "path": "sprites/spr_weed_slow/spr_weed_slow.yy",
   },
   "spriteMaskId": null,
   "visible": true,

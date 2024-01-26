@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_move_speed_temporary",
-    "path": "sprites/spr_move_speed_temporary/spr_move_speed_temporary.yy",
+    "name": "spr_move_speed_temporary_drawn",
+    "path": "sprites/spr_move_speed_temporary_drawn/spr_move_speed_temporary_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,

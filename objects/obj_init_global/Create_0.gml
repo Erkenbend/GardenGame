@@ -66,12 +66,13 @@ global.cards_in_deck = [
 	obj_weed_slow,
 	obj_bag_increase,
 	obj_player_aoe,
-	obj_player_spray
+	obj_player_spray,
+	obj_insanity_slow
 ]
 
 /*
 global.cards_in_deck = [
-obj_player_aoe]
+obj_insanity_slow]
 */
 
 global.powerups = {

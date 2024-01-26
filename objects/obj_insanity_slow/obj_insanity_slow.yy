@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_move_speed_immunity",
+  "name": "obj_insanity_slow",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slow_immunity_drawn",
-    "path": "sprites/spr_slow_immunity_drawn/spr_slow_immunity_drawn.yy",
+    "name": "spr_insanity_slow",
+    "path": "sprites/spr_insanity_slow/spr_insanity_slow.yy",
   },
   "spriteMaskId": null,
   "visible": true,

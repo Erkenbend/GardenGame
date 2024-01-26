@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_aoe",
-    "path": "sprites/spr_player_aoe/spr_player_aoe.yy",
+    "name": "spr_player_aoe_drawn",
+    "path": "sprites/spr_player_aoe_drawn/spr_player_aoe_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,

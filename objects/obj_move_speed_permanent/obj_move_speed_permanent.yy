@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_move_speed_permanent_2",
-    "path": "sprites/spr_move_speed_permanent_2/spr_move_speed_permanent_2.yy",
+    "name": "spr_move_speed_permanent_drawn",
+    "path": "sprites/spr_move_speed_permanent_drawn/spr_move_speed_permanent_drawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
