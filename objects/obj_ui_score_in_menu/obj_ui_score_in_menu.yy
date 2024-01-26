@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_card_clickable_info",
+  "name": "obj_ui_score_in_menu",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "cards",
-    "path": "folders/Objects/Deckbuilding/cards.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_card_clickable_yes",
-    "path": "sprites/spr_card_clickable_yes/spr_card_clickable_yes.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
