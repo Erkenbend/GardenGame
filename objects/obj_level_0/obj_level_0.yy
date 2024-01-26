@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_level_parent","path":"objects/obj_level_parent/obj_level_parent.yy",},"propertyId":{"name":"room_name","path":"objects/obj_level_parent/obj_level_parent.yy",},"value":"rm_game",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_level_parent","path":"objects/obj_level_parent/obj_level_parent.yy",},"propertyId":{"name":"room_name","path":"objects/obj_level_parent/obj_level_parent.yy",},"value":"rm_level_0",},
   ],
   "parent": {
     "name": "level",

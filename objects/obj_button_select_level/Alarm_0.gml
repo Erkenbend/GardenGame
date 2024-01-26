@@ -1,4 +1,4 @@
-/// @description Go to end screen
+/// @description Go to level select room
 
 event_inherited()
 
