@@ -21,7 +21,8 @@ global.bag_capacity = 2
 global.cut_down_duration = 3
 
 global.ui = {
-	info_text_duration: 60
+	info_text_duration: 60,
+	game_over_wait_duration: 120
 }
 
 global.grid_properties = {
