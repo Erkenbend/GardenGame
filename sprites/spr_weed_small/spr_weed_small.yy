@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "garden_elements",
+    "path": "folders/Sprites/garden_elements.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
