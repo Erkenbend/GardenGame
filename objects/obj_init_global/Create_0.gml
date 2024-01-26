@@ -76,6 +76,7 @@ global.player_movement = {
 	move_speed_temporary_multiplier: 1.5,
 }
 
+/*
 global.cards_in_deck = [
 	obj_move_speed_temporary,
 	obj_move_speed_temporary,
@@ -87,12 +88,12 @@ global.cards_in_deck = [
 	obj_player_aoe,
 	//obj_player_spray,
 	obj_insanity_slow_permanent
-]
+] */
 
-/*
+
 global.cards_in_deck = [
-obj_insanity_slow_temporary]
-*/
+obj_player_aoe]
+
 
 global.powerups = {
 	click_cooldown: 240,
