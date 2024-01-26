@@ -230,6 +230,7 @@
     {"id":{"name":"obj_info_parent","path":"objects/obj_info_parent/obj_info_parent.yy",},},
     {"id":{"name":"spr_landlord_angry","path":"sprites/spr_landlord_angry/spr_landlord_angry.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
+    {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},},
     {"id":{"name":"obj_grass_light","path":"objects/obj_grass_light/obj_grass_light.yy",},},
     {"id":{"name":"obj_creeper","path":"objects/obj_creeper/obj_creeper.yy",},},
     {"id":{"name":"snd_soft_hit_2","path":"sounds/snd_soft_hit_2/snd_soft_hit_2.yy",},},

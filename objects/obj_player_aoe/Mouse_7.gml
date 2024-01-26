@@ -1,4 +1,4 @@
-/// @description 
+/// @description
 
 event_inherited()
 if (!obj_deck.cards_clickable) {
@@ -24,7 +24,9 @@ var _instances = [_instance1, _instance2, _instance3, _instance4, _instance5, _i
 
 
 // destroy weed instances around player model
+	show_debug_message("b")
 for (var _i = 0; _i < array_length(_instances); _i++) {
+	show_debug_message("a")
 	instance_destroy(_instances[_i])
 }
 
