@@ -113,6 +113,7 @@
     {"name":"spr_rock","order":8,"path":"sprites/spr_rock/spr_rock.yy",},
     {"name":"obj_ui_bag","order":1,"path":"objects/obj_ui_bag/obj_ui_bag.yy",},
     {"name":"spr_slow_immunity","order":3,"path":"sprites/spr_slow_immunity/spr_slow_immunity.yy",},
+    {"name":"obj_landlord","order":8,"path":"objects/obj_landlord/obj_landlord.yy",},
     {"name":"spr_health_bar_75","order":3,"path":"sprites/spr_health_bar_75/spr_health_bar_75.yy",},
     {"name":"obj_weed_slow","order":5,"path":"objects/obj_weed_slow/obj_weed_slow.yy",},
     {"name":"obj_button_parent","order":6,"path":"objects/obj_button_parent/obj_button_parent.yy",},

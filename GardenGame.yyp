@@ -141,6 +141,7 @@
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
     {"id":{"name":"obj_ui_bag","path":"objects/obj_ui_bag/obj_ui_bag.yy",},},
     {"id":{"name":"spr_slow_immunity","path":"sprites/spr_slow_immunity/spr_slow_immunity.yy",},},
+    {"id":{"name":"obj_landlord","path":"objects/obj_landlord/obj_landlord.yy",},},
     {"id":{"name":"spr_health_bar_75","path":"sprites/spr_health_bar_75/spr_health_bar_75.yy",},},
     {"id":{"name":"obj_weed_slow","path":"objects/obj_weed_slow/obj_weed_slow.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
