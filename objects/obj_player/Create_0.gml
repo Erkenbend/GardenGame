@@ -11,8 +11,11 @@ mirrored = false
 // 1 for horiz, 2 for vert
 last_pressed_dir = 1
 
-// temporary multipliers
-weed_spread_probability_multiplier = 1
+// temporary modifiers
+modifiers = {
+	weed_spread_probability_multiplier: 1,
+	extra_bag_capacity: 0
+}
 
 self.depth = -200
 

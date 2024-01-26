@@ -11,7 +11,6 @@ randomize()
 
 global.score = 0
 global.high_score = 0
-global.bag_capacity_multiplier = 1
 global.bag_content = 0
 
 //// IMMUTABLE CONFIG

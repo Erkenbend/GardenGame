@@ -284,6 +284,7 @@
     {"name":"inst_58F3D4F9","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_36146E8A","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_F1EF157","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_F1EF157","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [

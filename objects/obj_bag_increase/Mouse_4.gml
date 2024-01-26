@@ -2,4 +2,4 @@
 
 // TODO: should event_inherited() be called here?
 
-global.bag_capacity += 2
+obj_player.modifiers.extra_bag_capacity += 2
