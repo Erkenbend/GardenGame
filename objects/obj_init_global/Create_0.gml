@@ -71,7 +71,7 @@ global.weed_growth = {
 }
 
 global.player_movement = {
-	move_speed_initial: 8,
+	move_speed_initial: 5,
 	debris_move_speed_multiplier: 0.4,
 	move_speed_temporary_multiplier: 1.5,
 }

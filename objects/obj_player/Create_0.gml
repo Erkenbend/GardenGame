@@ -6,15 +6,19 @@ mirrored = false
 // 1 for horiz, 2 for vert
 last_pressed_dir = 1
 
-// temporary modifiers
-modifiers = {
-	weed_spread_probability_multiplier: 1,
-	extra_bag_capacity: 0,
-	debris_immunity: false,
-	move_speed_permanent_multiplier: 1,
-	move_speed_temporary_multiplier: 1,
-	insanity_multiplier: 1,  // TODO: implement the card that changes this modifier
+_get_default_modifiers = function () {
+	return  {
+		weed_spread_probability_multiplier: 1,
+		extra_bag_capacity: 0,
+		debris_immunity: false,
+		move_speed_permanent_multiplier: 1,
+		move_speed_temporary_multiplier: 1,
+		insanity_multiplier: 1,
+	}
 }
+
+// init temporary modifiers
+modifiers = _get_default_modifiers()
 
 // variables for movement
 move_dir = 0
